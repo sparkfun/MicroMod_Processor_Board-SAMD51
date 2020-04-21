@@ -17470,6 +17470,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="279.4" y="269.24" size="2.54" layer="94" font="vector">M.2 Connector</text>
 <wire x1="274.32" y1="279.4" x2="274.32" y2="111.76" width="0.1524" layer="97" style="longdash"/>
 <wire x1="274.32" y1="111.76" x2="431.8" y2="111.76" width="0.1524" layer="97" style="longdash"/>
+<text x="210.82" y="190.5" size="1.27" layer="91">Quad SPI</text>
+<text x="162.56" y="208.28" size="1.27" layer="91">PB10 = QSPI SCK</text>
+<text x="162.56" y="205.74" size="1.27" layer="91">PB11 = QSPI CS</text>
+<text x="33.02" y="200.66" size="1.27" layer="91">PA08-11 - QSPI DATA0-DATA3</text>
+<text x="60.96" y="220.98" size="1.27" layer="91">SPI here PAD0 - PAD3?</text>
+<text x="154.94" y="223.52" size="1.27" layer="91">PB04 + PB05 - Can take displaced Analog (A4+A5)</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="114.3" y="210.82" smashed="yes">
@@ -17685,6 +17691,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="88.9" y1="213.36" x2="86.36" y2="213.36" width="0.1524" layer="91"/>
 <label x="86.36" y="213.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="U1" pin="D1/DO"/>
+<wire x1="226.06" y1="167.64" x2="228.6" y2="167.64" width="0.1524" layer="91"/>
+<label x="228.6" y="167.64" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -17893,13 +17904,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="149.86" y="231.14" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="SCK" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PB13"/>
-<wire x1="147.32" y1="200.66" x2="149.86" y2="200.66" width="0.1524" layer="91"/>
-<label x="149.86" y="200.66" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="MOSI" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PB12"/>
@@ -18001,6 +18005,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U2" gate="G$1" pin="PA11"/>
 <wire x1="88.9" y1="205.74" x2="86.36" y2="205.74" width="0.1524" layer="91"/>
 <label x="86.36" y="205.74" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="U1" pin="D0/DI"/>
+<wire x1="226.06" y1="170.18" x2="228.6" y2="170.18" width="0.1524" layer="91"/>
+<label x="228.6" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LED_BUILTIN" class="0">
@@ -18107,6 +18116,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J2" gate="J1" pin="SPI_SCK/LED_CLK"/>
 <wire x1="373.38" y1="246.38" x2="375.92" y2="246.38" width="0.2032" layer="91"/>
 <label x="375.92" y="246.38" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PB13"/>
+<wire x1="147.32" y1="200.66" x2="149.86" y2="200.66" width="0.1524" layer="91"/>
+<label x="149.86" y="200.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="!CS" class="0">
@@ -18263,18 +18277,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="228.6" y="172.72" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U1" gate="U1" pin="D0/DI"/>
-<wire x1="226.06" y1="170.18" x2="228.6" y2="170.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="U1" gate="U1" pin="D1/DO"/>
-<wire x1="226.06" y1="167.64" x2="228.6" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="D2/!WP!"/>
@@ -18285,6 +18287,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U1" gate="U1" pin="D3/!HOLD!"/>
 <wire x1="226.06" y1="162.56" x2="228.6" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<wire x1="71.12" y1="213.36" x2="68.58" y2="213.36" width="0.2032" layer="91" style="dashdot"/>
+<wire x1="68.58" y1="213.36" x2="68.58" y2="210.82" width="0.2032" layer="91" style="dashdot"/>
+<wire x1="68.58" y1="210.82" x2="68.58" y2="205.74" width="0.2032" layer="91" style="dashdot"/>
+<wire x1="68.58" y1="205.74" x2="71.12" y2="205.74" width="0.2032" layer="91" style="dashdot"/>
+<wire x1="68.58" y1="210.82" x2="60.96" y2="210.82" width="0.2032" layer="91" style="dashdot"/>
+<wire x1="60.96" y1="210.82" x2="60.96" y2="201.422" width="0.2032" layer="91" style="dashdot"/>
+<wire x1="60.96" y1="201.422" x2="57.404" y2="201.422" width="0.2032" layer="91" style="dashdot"/>
 </segment>
 </net>
 </nets>
