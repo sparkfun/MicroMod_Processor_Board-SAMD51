@@ -19807,18 +19807,6 @@ PA23: SCL</text>
 <label x="375.92" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="A2" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PB09"/>
-<wire x1="152.4" y1="215.9" x2="154.94" y2="215.9" width="0.1524" layer="91"/>
-<label x="154.94" y="215.9" size="1.27" layer="95" font="vector" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J2" gate="J1" pin="PWM0"/>
-<wire x1="373.38" y1="210.82" x2="375.92" y2="210.82" width="0.1524" layer="91"/>
-<label x="375.92" y="210.82" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="D10" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="G8"/>
@@ -20230,13 +20218,6 @@ PA23: SCL</text>
 <label x="154.94" y="205.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="A3" class="0">
-<segment>
-<pinref part="J2" gate="J1" pin="PWM1"/>
-<wire x1="373.38" y1="208.28" x2="375.92" y2="208.28" width="0.1524" layer="91"/>
-<label x="375.92" y="208.28" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="D11" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="G9/ADC_D-/CAM_HSYNC"/>
@@ -20249,16 +20230,16 @@ PA23: SCL</text>
 <label x="154.94" y="226.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="D12" class="0">
-<segment>
-<pinref part="J2" gate="J1" pin="G10/ADC_D+/CAM_VSYNC"/>
-<wire x1="373.38" y1="154.94" x2="375.92" y2="154.94" width="0.1524" layer="91"/>
-<label x="375.92" y="154.94" size="1.27" layer="95" xref="yes"/>
-</segment>
+<net name="A3/PWM1" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PB05"/>
 <wire x1="152.4" y1="228.6" x2="154.94" y2="228.6" width="0.1524" layer="91"/>
 <label x="154.94" y="228.6" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="J1" pin="PWM1"/>
+<wire x1="373.38" y1="208.28" x2="375.92" y2="208.28" width="0.1524" layer="91"/>
+<label x="375.92" y="208.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL1" class="0">
@@ -20283,6 +20264,18 @@ PA23: SCL</text>
 <pinref part="J2" gate="J1" pin="I2C_SDA1"/>
 <wire x1="327.66" y1="170.18" x2="325.12" y2="170.18" width="0.1524" layer="91"/>
 <label x="325.12" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="A2/PWM0" class="0">
+<segment>
+<pinref part="J2" gate="J1" pin="PWM0"/>
+<wire x1="373.38" y1="210.82" x2="375.92" y2="210.82" width="0.1524" layer="91"/>
+<label x="375.92" y="210.82" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PB09"/>
+<wire x1="152.4" y1="215.9" x2="154.94" y2="215.9" width="0.1524" layer="91"/>
+<label x="154.94" y="215.9" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>

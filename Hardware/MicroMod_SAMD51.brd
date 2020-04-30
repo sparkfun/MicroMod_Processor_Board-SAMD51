@@ -2076,11 +2076,6 @@ design rules under a new name.</description>
 <contactref element="J2" pad="38"/>
 <wire x1="11.049" y1="1.525" x2="5.68" y2="10.18" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="A2">
-<contactref element="U2" pad="12"/>
-<contactref element="J2" pad="32"/>
-<wire x1="12.549" y1="1.525" x2="5.68" y2="9.68" width="0" layer="19" extent="1-16"/>
-</signal>
 <signal name="D10">
 <contactref element="J2" pad="67"/>
 <contactref element="U2" pad="10"/>
@@ -2236,18 +2231,15 @@ design rules under a new name.</description>
 <contactref element="U2" pad="26"/>
 <wire x1="3.299" y1="1.275" x2="12.18" y2="5.68" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="A3">
-<contactref element="J2" pad="47"/>
-</signal>
 <signal name="D11">
 <contactref element="J2" pad="65"/>
 <contactref element="U2" pad="9"/>
 <wire x1="4.299" y1="1.275" x2="5.68" y2="11.18" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="D12">
-<contactref element="J2" pad="63"/>
+<signal name="A3/PWM1">
 <contactref element="U2" pad="6"/>
-<wire x1="4.799" y1="1.275" x2="5.68" y2="12.68" width="0" layer="19" extent="1-1"/>
+<contactref element="J2" pad="47"/>
+<wire x1="8.799" y1="1.275" x2="5.68" y2="12.68" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL1">
 <contactref element="U2" pad="29"/>
@@ -2258,6 +2250,11 @@ design rules under a new name.</description>
 <contactref element="U2" pad="30"/>
 <contactref element="J2" pad="53"/>
 <wire x1="7.299" y1="1.275" x2="14.18" y2="5.68" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A2/PWM0">
+<contactref element="J2" pad="32"/>
+<contactref element="U2" pad="12"/>
+<wire x1="12.549" y1="1.525" x2="5.68" y2="9.68" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
