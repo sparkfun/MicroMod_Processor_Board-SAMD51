@@ -17344,6 +17344,112 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-10.62" y1="-0.8" x2="-10.02" y2="-0.2" width="0.1016" layer="46"/>
 <wire x1="-10.02" y1="-0.2" x2="-10.42" y2="-0.2" width="0.1016" layer="46"/>
 <wire x1="-10.02" y1="-0.2" x2="-10.02" y2="-0.6" width="0.1016" layer="46"/>
+<text x="-0.02" y="-2.27" size="0.762" layer="46" ratio="15" rot="R180" align="center">0.8mm PCB</text>
+</package>
+<package name="USON-8">
+<description>USON-8. UX package with Winbond. 2x3mm. Only available up to 16Mbit.</description>
+<wire x1="-1.5" y1="1" x2="1.5" y2="1" width="0.0762" layer="51"/>
+<wire x1="1.5" y1="1" x2="1.5" y2="-1" width="0.0762" layer="51"/>
+<wire x1="1.5" y1="-1" x2="-1.5" y2="-1" width="0.0762" layer="51"/>
+<wire x1="-1.5" y1="-1" x2="-1.5" y2="1" width="0.0762" layer="51"/>
+<smd name="1" x="-1.325" y="0.75" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<circle x="-1.8" y="1.2" radius="0.05" width="0.3" layer="21"/>
+<rectangle x1="-1.5" y1="0.625" x2="-1.05" y2="0.875" layer="51"/>
+<rectangle x1="-1.5" y1="0.125" x2="-1.05" y2="0.375" layer="51"/>
+<rectangle x1="-1.5" y1="-0.375" x2="-1.05" y2="-0.125" layer="51"/>
+<rectangle x1="-1.5" y1="-0.875" x2="-1.05" y2="-0.625" layer="51"/>
+<smd name="2" x="-1.325" y="0.25" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="-1.325" y="-0.25" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="-1.325" y="-0.75" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<rectangle x1="1.05" y1="-0.375" x2="1.5" y2="-0.125" layer="51"/>
+<smd name="6" x="1.325" y="-0.25" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="1.325" y="-0.75" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="1.325" y="0.25" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="1.325" y="0.75" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<rectangle x1="1.05" y1="0.125" x2="1.5" y2="0.375" layer="51"/>
+<rectangle x1="1.05" y1="0.625" x2="1.5" y2="0.875" layer="51"/>
+<rectangle x1="1.05" y1="-0.875" x2="1.5" y2="-0.625" layer="51"/>
+<wire x1="-1.3" y1="1.1" x2="1.3" y2="1.1" width="0.1524" layer="21"/>
+<wire x1="-1.3" y1="-1.1" x2="1.3" y2="-1.1" width="0.1524" layer="21"/>
+</package>
+<package name="WSON-8-6X5">
+<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.05" layer="51"/>
+<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.05" layer="51"/>
+<wire x1="3" y1="-2.5" x2="-3" y2="-2.5" width="0.05" layer="51"/>
+<wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.05" layer="51"/>
+<smd name="1" x="-2.775" y="1.905" dx="0.5" dy="0.85" layer="1" rot="R90"/>
+<circle x="-3.3375" y="2.7" radius="0.05" width="0.3" layer="21"/>
+<rectangle x1="2.4" y1="0.4375" x2="3" y2="0.8375" layer="51"/>
+<smd name="2" x="-2.775" y="0.635" dx="0.5" dy="0.85" layer="1" rot="R90"/>
+<smd name="3" x="-2.775" y="-0.635" dx="0.5" dy="0.85" layer="1" rot="R90"/>
+<smd name="4" x="-2.775" y="-1.905" dx="0.5" dy="0.85" layer="1" rot="R90"/>
+<smd name="6" x="2.775" y="-0.635" dx="0.5" dy="0.85" layer="1" rot="R90"/>
+<smd name="5" x="2.775" y="-1.905" dx="0.5" dy="0.85" layer="1" rot="R90"/>
+<smd name="7" x="2.775" y="0.635" dx="0.5" dy="0.85" layer="1" rot="R90"/>
+<smd name="8" x="2.775" y="1.905" dx="0.5" dy="0.85" layer="1" rot="R90"/>
+<wire x1="-3" y1="2.6" x2="3" y2="2.6" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-2.6" x2="3" y2="-2.6" width="0.1524" layer="21"/>
+<rectangle x1="2.4" y1="-2.1" x2="3" y2="-1.7" layer="51"/>
+<rectangle x1="2.4" y1="-0.8375" x2="3" y2="-0.4375" layer="51"/>
+<rectangle x1="2.4" y1="1.7" x2="3" y2="2.1" layer="51"/>
+<rectangle x1="-3" y1="1.7" x2="-2.4" y2="2.1" layer="51"/>
+<rectangle x1="-3" y1="0.425" x2="-2.4" y2="0.825" layer="51"/>
+<rectangle x1="-3" y1="-0.8375" x2="-2.4" y2="-0.4375" layer="51"/>
+<rectangle x1="-3" y1="-2.1" x2="-2.4" y2="-1.7" layer="51"/>
+<polygon width="0.05" layer="51">
+<vertex x="-1.7" y="1.4"/>
+<vertex x="-1.1" y="2"/>
+<vertex x="1.7" y="2"/>
+<vertex x="1.7" y="-2"/>
+<vertex x="-1.7" y="-2"/>
+</polygon>
+<polygon width="0.05" layer="1">
+<vertex x="-1.7" y="1.4"/>
+<vertex x="-1.1" y="2"/>
+<vertex x="1.7" y="2"/>
+<vertex x="1.7" y="-2"/>
+<vertex x="-1.7" y="-2"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="-1.8" y="1.475"/>
+<vertex x="-1.15" y="2.125"/>
+<vertex x="1.8" y="2.125"/>
+<vertex x="1.8" y="-2.1"/>
+<vertex x="-1.8" y="-2.1"/>
+</polygon>
+<rectangle x1="-0.4" y1="-0.4" x2="0.4" y2="0.4" layer="31"/>
+</package>
+<package name="WSON-8-6X5-NO_CENTERPAD">
+<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.05" layer="51"/>
+<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.05" layer="51"/>
+<wire x1="3" y1="-2.5" x2="-3" y2="-2.5" width="0.05" layer="51"/>
+<wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.05" layer="51"/>
+<smd name="1" x="-2.775" y="1.905" dx="0.5" dy="0.85" layer="1" rot="R90"/>
+<circle x="-3.3375" y="2.7" radius="0.05" width="0.3" layer="21"/>
+<rectangle x1="2.4" y1="0.4375" x2="3" y2="0.8375" layer="51"/>
+<smd name="2" x="-2.775" y="0.635" dx="0.5" dy="0.85" layer="1" rot="R90"/>
+<smd name="3" x="-2.775" y="-0.635" dx="0.5" dy="0.85" layer="1" rot="R90"/>
+<smd name="4" x="-2.775" y="-1.905" dx="0.5" dy="0.85" layer="1" rot="R90"/>
+<smd name="6" x="2.775" y="-0.635" dx="0.5" dy="0.85" layer="1" rot="R90"/>
+<smd name="5" x="2.775" y="-1.905" dx="0.5" dy="0.85" layer="1" rot="R90"/>
+<smd name="7" x="2.775" y="0.635" dx="0.5" dy="0.85" layer="1" rot="R90"/>
+<smd name="8" x="2.775" y="1.905" dx="0.5" dy="0.85" layer="1" rot="R90"/>
+<wire x1="-3" y1="2.6" x2="3" y2="2.6" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-2.6" x2="3" y2="-2.6" width="0.1524" layer="21"/>
+<rectangle x1="2.4" y1="-2.1" x2="3" y2="-1.7" layer="51"/>
+<rectangle x1="2.4" y1="-0.8375" x2="3" y2="-0.4375" layer="51"/>
+<rectangle x1="2.4" y1="1.7" x2="3" y2="2.1" layer="51"/>
+<rectangle x1="-3" y1="1.7" x2="-2.4" y2="2.1" layer="51"/>
+<rectangle x1="-3" y1="0.425" x2="-2.4" y2="0.825" layer="51"/>
+<rectangle x1="-3" y1="-0.8375" x2="-2.4" y2="-0.4375" layer="51"/>
+<rectangle x1="-3" y1="-2.1" x2="-2.4" y2="-1.7" layer="51"/>
+<polygon width="0.05" layer="51">
+<vertex x="-1.7" y="1.4"/>
+<vertex x="-1.1" y="2"/>
+<vertex x="1.7" y="2"/>
+<vertex x="1.7" y="-2"/>
+<vertex x="-1.7" y="-2"/>
+</polygon>
 </package>
 <package name="M.2-CONNECTOR-E">
 <hole x="10" y="0" drill="1.1"/>
@@ -17509,111 +17615,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="8.65" y1="-6" x2="8.85" y2="-4.55" layer="31"/>
 <rectangle x1="9.15" y1="-6" x2="9.35" y2="-4.55" layer="31" rot="R180"/>
 <circle x="4" y="20" radius="3" width="0.05" layer="51"/>
-</package>
-<package name="USON-8">
-<description>USON-8. UX package with Winbond. 2x3mm. Only available up to 16Mbit.</description>
-<wire x1="-1.5" y1="1" x2="1.5" y2="1" width="0.0762" layer="51"/>
-<wire x1="1.5" y1="1" x2="1.5" y2="-1" width="0.0762" layer="51"/>
-<wire x1="1.5" y1="-1" x2="-1.5" y2="-1" width="0.0762" layer="51"/>
-<wire x1="-1.5" y1="-1" x2="-1.5" y2="1" width="0.0762" layer="51"/>
-<smd name="1" x="-1.325" y="0.75" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<circle x="-1.8" y="1.2" radius="0.05" width="0.3" layer="21"/>
-<rectangle x1="-1.5" y1="0.625" x2="-1.05" y2="0.875" layer="51"/>
-<rectangle x1="-1.5" y1="0.125" x2="-1.05" y2="0.375" layer="51"/>
-<rectangle x1="-1.5" y1="-0.375" x2="-1.05" y2="-0.125" layer="51"/>
-<rectangle x1="-1.5" y1="-0.875" x2="-1.05" y2="-0.625" layer="51"/>
-<smd name="2" x="-1.325" y="0.25" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="-1.325" y="-0.25" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="-1.325" y="-0.75" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<rectangle x1="1.05" y1="-0.375" x2="1.5" y2="-0.125" layer="51"/>
-<smd name="6" x="1.325" y="-0.25" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="5" x="1.325" y="-0.75" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="7" x="1.325" y="0.25" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<smd name="8" x="1.325" y="0.75" dx="0.25" dy="0.6" layer="1" rot="R90"/>
-<rectangle x1="1.05" y1="0.125" x2="1.5" y2="0.375" layer="51"/>
-<rectangle x1="1.05" y1="0.625" x2="1.5" y2="0.875" layer="51"/>
-<rectangle x1="1.05" y1="-0.875" x2="1.5" y2="-0.625" layer="51"/>
-<wire x1="-1.3" y1="1.1" x2="1.3" y2="1.1" width="0.1524" layer="21"/>
-<wire x1="-1.3" y1="-1.1" x2="1.3" y2="-1.1" width="0.1524" layer="21"/>
-</package>
-<package name="WSON-8-6X5">
-<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.05" layer="51"/>
-<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.05" layer="51"/>
-<wire x1="3" y1="-2.5" x2="-3" y2="-2.5" width="0.05" layer="51"/>
-<wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.05" layer="51"/>
-<smd name="1" x="-2.775" y="1.905" dx="0.5" dy="0.85" layer="1" rot="R90"/>
-<circle x="-3.3375" y="2.7" radius="0.05" width="0.3" layer="21"/>
-<rectangle x1="2.4" y1="0.4375" x2="3" y2="0.8375" layer="51"/>
-<smd name="2" x="-2.775" y="0.635" dx="0.5" dy="0.85" layer="1" rot="R90"/>
-<smd name="3" x="-2.775" y="-0.635" dx="0.5" dy="0.85" layer="1" rot="R90"/>
-<smd name="4" x="-2.775" y="-1.905" dx="0.5" dy="0.85" layer="1" rot="R90"/>
-<smd name="6" x="2.775" y="-0.635" dx="0.5" dy="0.85" layer="1" rot="R90"/>
-<smd name="5" x="2.775" y="-1.905" dx="0.5" dy="0.85" layer="1" rot="R90"/>
-<smd name="7" x="2.775" y="0.635" dx="0.5" dy="0.85" layer="1" rot="R90"/>
-<smd name="8" x="2.775" y="1.905" dx="0.5" dy="0.85" layer="1" rot="R90"/>
-<wire x1="-3" y1="2.6" x2="3" y2="2.6" width="0.1524" layer="21"/>
-<wire x1="-3" y1="-2.6" x2="3" y2="-2.6" width="0.1524" layer="21"/>
-<rectangle x1="2.4" y1="-2.1" x2="3" y2="-1.7" layer="51"/>
-<rectangle x1="2.4" y1="-0.8375" x2="3" y2="-0.4375" layer="51"/>
-<rectangle x1="2.4" y1="1.7" x2="3" y2="2.1" layer="51"/>
-<rectangle x1="-3" y1="1.7" x2="-2.4" y2="2.1" layer="51"/>
-<rectangle x1="-3" y1="0.425" x2="-2.4" y2="0.825" layer="51"/>
-<rectangle x1="-3" y1="-0.8375" x2="-2.4" y2="-0.4375" layer="51"/>
-<rectangle x1="-3" y1="-2.1" x2="-2.4" y2="-1.7" layer="51"/>
-<polygon width="0.05" layer="51">
-<vertex x="-1.7" y="1.4"/>
-<vertex x="-1.1" y="2"/>
-<vertex x="1.7" y="2"/>
-<vertex x="1.7" y="-2"/>
-<vertex x="-1.7" y="-2"/>
-</polygon>
-<polygon width="0.05" layer="1">
-<vertex x="-1.7" y="1.4"/>
-<vertex x="-1.1" y="2"/>
-<vertex x="1.7" y="2"/>
-<vertex x="1.7" y="-2"/>
-<vertex x="-1.7" y="-2"/>
-</polygon>
-<polygon width="0.05" layer="29">
-<vertex x="-1.8" y="1.475"/>
-<vertex x="-1.15" y="2.125"/>
-<vertex x="1.8" y="2.125"/>
-<vertex x="1.8" y="-2.1"/>
-<vertex x="-1.8" y="-2.1"/>
-</polygon>
-<rectangle x1="-0.4" y1="-0.4" x2="0.4" y2="0.4" layer="31"/>
-</package>
-<package name="WSON-8-6X5-NO_CENTERPAD">
-<wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.05" layer="51"/>
-<wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0.05" layer="51"/>
-<wire x1="3" y1="-2.5" x2="-3" y2="-2.5" width="0.05" layer="51"/>
-<wire x1="-3" y1="-2.5" x2="-3" y2="2.5" width="0.05" layer="51"/>
-<smd name="1" x="-2.775" y="1.905" dx="0.5" dy="0.85" layer="1" rot="R90"/>
-<circle x="-3.3375" y="2.7" radius="0.05" width="0.3" layer="21"/>
-<rectangle x1="2.4" y1="0.4375" x2="3" y2="0.8375" layer="51"/>
-<smd name="2" x="-2.775" y="0.635" dx="0.5" dy="0.85" layer="1" rot="R90"/>
-<smd name="3" x="-2.775" y="-0.635" dx="0.5" dy="0.85" layer="1" rot="R90"/>
-<smd name="4" x="-2.775" y="-1.905" dx="0.5" dy="0.85" layer="1" rot="R90"/>
-<smd name="6" x="2.775" y="-0.635" dx="0.5" dy="0.85" layer="1" rot="R90"/>
-<smd name="5" x="2.775" y="-1.905" dx="0.5" dy="0.85" layer="1" rot="R90"/>
-<smd name="7" x="2.775" y="0.635" dx="0.5" dy="0.85" layer="1" rot="R90"/>
-<smd name="8" x="2.775" y="1.905" dx="0.5" dy="0.85" layer="1" rot="R90"/>
-<wire x1="-3" y1="2.6" x2="3" y2="2.6" width="0.1524" layer="21"/>
-<wire x1="-3" y1="-2.6" x2="3" y2="-2.6" width="0.1524" layer="21"/>
-<rectangle x1="2.4" y1="-2.1" x2="3" y2="-1.7" layer="51"/>
-<rectangle x1="2.4" y1="-0.8375" x2="3" y2="-0.4375" layer="51"/>
-<rectangle x1="2.4" y1="1.7" x2="3" y2="2.1" layer="51"/>
-<rectangle x1="-3" y1="1.7" x2="-2.4" y2="2.1" layer="51"/>
-<rectangle x1="-3" y1="0.425" x2="-2.4" y2="0.825" layer="51"/>
-<rectangle x1="-3" y1="-0.8375" x2="-2.4" y2="-0.4375" layer="51"/>
-<rectangle x1="-3" y1="-2.1" x2="-2.4" y2="-1.7" layer="51"/>
-<polygon width="0.05" layer="51">
-<vertex x="-1.7" y="1.4"/>
-<vertex x="-1.1" y="2"/>
-<vertex x="1.7" y="2"/>
-<vertex x="1.7" y="-2"/>
-<vertex x="-1.7" y="-2"/>
-</polygon>
+<text x="0" y="0.635" size="0.762" layer="25" align="center">&gt;Name</text>
+<text x="0" y="-0.635" size="0.762" layer="27" align="center">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -17622,12 +17625,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="20.32" y1="53.34" x2="20.32" y2="-45.72" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-45.72" x2="-20.32" y2="-45.72" width="0.254" layer="94"/>
 <wire x1="-20.32" y1="-45.72" x2="-20.32" y2="53.34" width="0.254" layer="94"/>
-<pin name="SDIO_CLK/SCK1" x="22.86" y="38.1" length="short" rot="R180"/>
-<pin name="SDIO_CMD/MOSI1" x="22.86" y="35.56" length="short" rot="R180"/>
-<pin name="SDIO_DATA1" x="22.86" y="30.48" length="short" rot="R180"/>
-<pin name="SDIO_DATA0/MISO1" x="22.86" y="33.02" length="short" rot="R180"/>
-<pin name="SDIO_DATA2" x="22.86" y="27.94" length="short" rot="R180"/>
-<pin name="SDIO_DATA3" x="22.86" y="25.4" length="short" rot="R180"/>
+<pin name="SPI_SCK/SDIO_CLK" x="22.86" y="50.8" length="short" rot="R180"/>
+<pin name="SPI_MOSI/SDIO_CMD" x="22.86" y="48.26" length="short" rot="R180"/>
+<pin name="SDIO_DATA1" x="22.86" y="43.18" length="short" rot="R180"/>
+<pin name="SPI_MISO/SDIO_DATA0" x="22.86" y="45.72" length="short" rot="R180"/>
+<pin name="SDIO_DATA2" x="22.86" y="40.64" length="short" rot="R180"/>
+<pin name="SPI_!CS!/SDIO_DATA3" x="22.86" y="38.1" length="short" rot="R180"/>
 <pin name="AUD_MCLK" x="-22.86" y="0" length="short"/>
 <pin name="D0" x="22.86" y="10.16" length="short" rot="R180"/>
 <pin name="SWDCK" x="-22.86" y="5.08" length="short"/>
@@ -17640,9 +17643,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="A0" x="22.86" y="20.32" length="short" rot="R180"/>
 <pin name="PWM1" x="22.86" y="12.7" length="short" rot="R180"/>
 <pin name="PWM0" x="22.86" y="15.24" length="short" rot="R180"/>
-<pin name="SPI_SCK/LED_CLK" x="22.86" y="50.8" length="short" rot="R180"/>
-<pin name="SPI_MOSI/LED_DAT" x="22.86" y="48.26" length="short" rot="R180"/>
-<pin name="SPI_MISO" x="22.86" y="45.72" length="short" rot="R180"/>
+<pin name="SPI_SCK1" x="22.86" y="33.02" length="short" rot="R180"/>
+<pin name="SPI_MOSI1" x="22.86" y="30.48" length="short" rot="R180"/>
+<pin name="SPI_MISO1" x="22.86" y="27.94" length="short" rot="R180"/>
 <pin name="BATT_VIN/3" x="-22.86" y="-30.48" length="short"/>
 <pin name="RX1" x="22.86" y="0" length="short" rot="R180"/>
 <pin name="TX1" x="22.86" y="2.54" length="short" rot="R180"/>
@@ -17678,7 +17681,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="G8" x="22.86" y="-35.56" length="short" rot="R180"/>
 <pin name="G9/ADC_D-/CAM_HSYNC" x="22.86" y="-38.1" length="short" rot="R180"/>
 <pin name="G10/ADC_D+/CAM_VSYNC" x="22.86" y="-40.64" length="short" rot="R180"/>
-<pin name="SPI_!CS!" x="22.86" y="43.18" length="short" rot="R180"/>
+<pin name="SPI_!CS!1" x="22.86" y="25.4" length="short" rot="R180"/>
 <text x="-20.32" y="53.848" size="1.778" layer="95">&gt;Name</text>
 <text x="-20.32" y="-48.26" size="1.778" layer="96">&gt;Value</text>
 <pin name="RTC_3V" x="-22.86" y="38.1" length="short"/>
@@ -17754,16 +17757,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="J1" pin="RTS1" pad="13"/>
 <connect gate="J1" pin="RX1" pad="19"/>
 <connect gate="J1" pin="RX2" pad="20"/>
-<connect gate="J1" pin="SDIO_CLK/SCK1" pad="60"/>
-<connect gate="J1" pin="SDIO_CMD/MOSI1" pad="62"/>
-<connect gate="J1" pin="SDIO_DATA0/MISO1" pad="64"/>
 <connect gate="J1" pin="SDIO_DATA1" pad="66"/>
 <connect gate="J1" pin="SDIO_DATA2" pad="68"/>
-<connect gate="J1" pin="SDIO_DATA3" pad="70"/>
-<connect gate="J1" pin="SPI_!CS!" pad="49"/>
-<connect gate="J1" pin="SPI_MISO" pad="61"/>
-<connect gate="J1" pin="SPI_MOSI/LED_DAT" pad="59"/>
-<connect gate="J1" pin="SPI_SCK/LED_CLK" pad="57"/>
+<connect gate="J1" pin="SPI_!CS!/SDIO_DATA3" pad="70"/>
+<connect gate="J1" pin="SPI_!CS!1" pad="49"/>
+<connect gate="J1" pin="SPI_MISO/SDIO_DATA0" pad="64"/>
+<connect gate="J1" pin="SPI_MISO1" pad="61"/>
+<connect gate="J1" pin="SPI_MOSI/SDIO_CMD" pad="62"/>
+<connect gate="J1" pin="SPI_MOSI1" pad="59"/>
+<connect gate="J1" pin="SPI_SCK/SDIO_CLK" pad="60"/>
+<connect gate="J1" pin="SPI_SCK1" pad="57"/>
 <connect gate="J1" pin="SWDCK" pad="21"/>
 <connect gate="J1" pin="SWDIO" pad="23"/>
 <connect gate="J1" pin="TX1" pad="17"/>
@@ -17821,16 +17824,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="J1" pin="RTS1" pad="13"/>
 <connect gate="J1" pin="RX1" pad="19"/>
 <connect gate="J1" pin="RX2" pad="20"/>
-<connect gate="J1" pin="SDIO_CLK/SCK1" pad="60"/>
-<connect gate="J1" pin="SDIO_CMD/MOSI1" pad="62"/>
-<connect gate="J1" pin="SDIO_DATA0/MISO1" pad="64"/>
 <connect gate="J1" pin="SDIO_DATA1" pad="66"/>
 <connect gate="J1" pin="SDIO_DATA2" pad="68"/>
-<connect gate="J1" pin="SDIO_DATA3" pad="70"/>
-<connect gate="J1" pin="SPI_!CS!" pad="55"/>
-<connect gate="J1" pin="SPI_MISO" pad="61"/>
-<connect gate="J1" pin="SPI_MOSI/LED_DAT" pad="59"/>
-<connect gate="J1" pin="SPI_SCK/LED_CLK" pad="57"/>
+<connect gate="J1" pin="SPI_!CS!/SDIO_DATA3" pad="70"/>
+<connect gate="J1" pin="SPI_!CS!1" pad="55"/>
+<connect gate="J1" pin="SPI_MISO/SDIO_DATA0" pad="64"/>
+<connect gate="J1" pin="SPI_MISO1" pad="61"/>
+<connect gate="J1" pin="SPI_MOSI/SDIO_CMD" pad="62"/>
+<connect gate="J1" pin="SPI_MOSI1" pad="59"/>
+<connect gate="J1" pin="SPI_SCK/SDIO_CLK" pad="60"/>
+<connect gate="J1" pin="SPI_SCK1" pad="57"/>
 <connect gate="J1" pin="SWDCK" pad="21"/>
 <connect gate="J1" pin="SWDIO" pad="23"/>
 <connect gate="J1" pin="TX1" pad="17"/>
@@ -19821,7 +19824,7 @@ PA23: SCL</text>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="J2" gate="J1" pin="SPI_MOSI/LED_DAT"/>
+<pinref part="J2" gate="J1" pin="SPI_MOSI/SDIO_CMD"/>
 <wire x1="373.38" y1="243.84" x2="375.92" y2="243.84" width="0.2032" layer="91"/>
 <label x="375.92" y="243.84" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -19833,7 +19836,7 @@ PA23: SCL</text>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="J2" gate="J1" pin="SPI_MISO"/>
+<pinref part="J2" gate="J1" pin="SPI_MISO/SDIO_DATA0"/>
 <wire x1="373.38" y1="241.3" x2="375.92" y2="241.3" width="0.2032" layer="91"/>
 <label x="375.92" y="241.3" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -19930,7 +19933,7 @@ PA23: SCL</text>
 </net>
 <net name="SCLK" class="0">
 <segment>
-<pinref part="J2" gate="J1" pin="SPI_SCK/LED_CLK"/>
+<pinref part="J2" gate="J1" pin="SPI_SCK/SDIO_CLK"/>
 <wire x1="373.38" y1="246.38" x2="375.92" y2="246.38" width="0.2032" layer="91"/>
 <label x="375.92" y="246.38" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -19942,14 +19945,14 @@ PA23: SCL</text>
 </net>
 <net name="!CS" class="0">
 <segment>
-<pinref part="J2" gate="J1" pin="SPI_!CS!"/>
-<wire x1="373.38" y1="238.76" x2="375.92" y2="238.76" width="0.2032" layer="91"/>
-<label x="375.92" y="238.76" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U2" gate="G$1" pin="PA07"/>
 <wire x1="93.98" y1="223.52" x2="91.44" y2="223.52" width="0.1524" layer="91"/>
 <label x="91.44" y="223.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="373.38" y1="233.68" x2="375.92" y2="233.68" width="0.2032" layer="91"/>
+<label x="375.92" y="233.68" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="J1" pin="SPI_!CS!/SDIO_DATA3"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -20165,9 +20168,9 @@ PA23: SCL</text>
 <label x="154.94" y="241.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J1" pin="SDIO_CMD/MOSI1"/>
-<wire x1="373.38" y1="231.14" x2="375.92" y2="231.14" width="0.1524" layer="91"/>
-<label x="375.92" y="231.14" size="1.27" layer="95" xref="yes"/>
+<wire x1="373.38" y1="226.06" x2="375.92" y2="226.06" width="0.1524" layer="91"/>
+<label x="375.92" y="226.06" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="J1" pin="SPI_MOSI1"/>
 </segment>
 </net>
 <net name="MISO1" class="0">
@@ -20177,9 +20180,9 @@ PA23: SCL</text>
 <label x="154.94" y="238.76" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J1" pin="SDIO_DATA0/MISO1"/>
-<wire x1="373.38" y1="228.6" x2="375.92" y2="228.6" width="0.1524" layer="91"/>
-<label x="375.92" y="228.6" size="1.27" layer="95" xref="yes"/>
+<wire x1="373.38" y1="223.52" x2="375.92" y2="223.52" width="0.1524" layer="91"/>
+<label x="375.92" y="223.52" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="J1" pin="SPI_MISO1"/>
 </segment>
 </net>
 <net name="SCLK1" class="0">
@@ -20189,9 +20192,9 @@ PA23: SCL</text>
 <label x="154.94" y="236.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J1" pin="SDIO_CLK/SCK1"/>
-<wire x1="373.38" y1="233.68" x2="375.92" y2="233.68" width="0.1524" layer="91"/>
-<label x="375.92" y="233.68" size="1.27" layer="95" xref="yes"/>
+<wire x1="373.38" y1="228.6" x2="375.92" y2="228.6" width="0.1524" layer="91"/>
+<label x="375.92" y="228.6" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="J1" pin="SPI_SCK1"/>
 </segment>
 </net>
 <net name="!CS1" class="0">
@@ -20201,9 +20204,9 @@ PA23: SCL</text>
 <label x="154.94" y="233.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="J1" pin="SDIO_DATA1"/>
-<wire x1="373.38" y1="226.06" x2="375.92" y2="226.06" width="0.1524" layer="91"/>
-<label x="375.92" y="226.06" size="1.27" layer="95" xref="yes"/>
+<wire x1="373.38" y1="220.98" x2="375.92" y2="220.98" width="0.1524" layer="91"/>
+<label x="375.92" y="220.98" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="J1" pin="SPI_!CS!1"/>
 </segment>
 </net>
 <net name="D9" class="0">
