@@ -10,8 +10,8 @@
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="PWR_HORIZ" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="GND-VERT" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="PWR_HORIZ" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="GND-VERT" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -1490,7 +1490,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="3.225" y1="2.9" x2="3.225" y2="0" width="0.0508" layer="47"/>
 <wire x1="2.025" y1="2.9" x2="2.025" y2="0" width="0.0508" layer="47"/>
 <wire x1="3.225" y1="2.9" x2="2.025" y2="2.9" width="0.0508" layer="47" curve="180"/>
-<smd name="GND-SM-B" x="4" y="19" dx="0.25" dy="0.25" layer="16" cream="no"/>
 <wire x1="11" y1="21" x2="11" y2="4.6" width="0.05" layer="47"/>
 <wire x1="10.4" y1="4" x2="11" y2="4.6" width="0.05" layer="47" curve="86.784874"/>
 <wire x1="-11" y1="4.6" x2="-10.4" y2="4" width="0.05" layer="47" curve="86.784874"/>
@@ -1498,32 +1497,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-11" y1="21" x2="-10" y2="22" width="0.05" layer="47" curve="-87.205638"/>
 <wire x1="5.75" y1="22" x2="2.25" y2="22" width="0.0508" layer="47" curve="-180"/>
 <wire x1="6.75" y1="22" x2="1.25" y2="22" width="0.0508" layer="47" curve="-180"/>
-<wire x1="1" y1="22" x2="7" y2="22" width="0.0508" layer="47"/>
-<wire x1="7" y1="21" x2="1" y2="21" width="0.0508" layer="47" curve="-180"/>
-<wire x1="7" y1="21" x2="7" y2="22" width="0.0508" layer="47"/>
-<wire x1="1" y1="21" x2="1" y2="22" width="0.0508" layer="47"/>
-<polygon width="0.05" layer="16">
-<vertex x="7" y="21"/>
-<vertex x="7" y="22"/>
-<vertex x="5.75" y="22" curve="-90"/>
-<vertex x="4" y="20.25" curve="-90"/>
-<vertex x="2.25" y="22"/>
-<vertex x="1" y="22"/>
-<vertex x="1" y="21" curve="90"/>
-<vertex x="4" y="18" curve="90"/>
-</polygon>
-<polygon width="0.05" layer="30">
-<vertex x="7" y="21"/>
-<vertex x="7" y="22"/>
-<vertex x="5.75" y="22" curve="-90"/>
-<vertex x="4" y="20.25" curve="-90"/>
-<vertex x="2.25" y="22"/>
-<vertex x="1" y="22"/>
-<vertex x="1" y="21" curve="90"/>
-<vertex x="4" y="18" curve="90"/>
-</polygon>
 <wire x1="-10.3" y1="0.55" x2="10.7" y2="0.55" width="0.02" layer="51"/>
-<pad name="GND" x="4" y="22" drill="3.5" diameter="5.5"/>
 <text x="-0.02" y="-1" size="0.762" layer="46" ratio="15" rot="R180" align="center">Chamfered Edge</text>
 <wire x1="10.58" y1="-0.8" x2="9.98" y2="-0.2" width="0.1016" layer="46"/>
 <wire x1="9.98" y1="-0.2" x2="9.98" y2="-0.6" width="0.1016" layer="46"/>
@@ -1532,6 +1506,53 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-10.02" y1="-0.2" x2="-10.42" y2="-0.2" width="0.1016" layer="46"/>
 <wire x1="-10.02" y1="-0.2" x2="-10.02" y2="-0.6" width="0.1016" layer="46"/>
 <text x="-0.02" y="-2.27" size="0.762" layer="46" ratio="15" rot="R180" align="center">0.8mm PCB</text>
+<polygon width="0.05" layer="1">
+<vertex x="1.25" y="21.75"/>
+<vertex x="2.05" y="21.75" curve="90"/>
+<vertex x="4" y="20" curve="90"/>
+<vertex x="5.95" y="21.75"/>
+<vertex x="6.75" y="21.75" curve="-83.375457"/>
+<vertex x="4" y="19.25" curve="-84.266438"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="1.25" y="22"/>
+<vertex x="2.25" y="22" curve="90"/>
+<vertex x="4" y="20.25" curve="90"/>
+<vertex x="5.75" y="22"/>
+<vertex x="6.75" y="22" curve="-90"/>
+<vertex x="4" y="19.25" curve="-90"/>
+</polygon>
+<polygon width="0.05" layer="30">
+<vertex x="6.75" y="22"/>
+<vertex x="5.75" y="22" curve="-90"/>
+<vertex x="4" y="20.25" curve="-90"/>
+<vertex x="2.25" y="22"/>
+<vertex x="1.25" y="22" curve="90"/>
+<vertex x="4" y="19.25" curve="90"/>
+</polygon>
+<pad name="GND1" x="1.9" y="21" drill="0.2"/>
+<pad name="GND3" x="6.1" y="21" drill="0.2"/>
+<pad name="GND2" x="4" y="19.7" drill="0.2"/>
+<text x="4" y="21.3" size="0.3" layer="20" align="center">Route
+Out</text>
+<wire x1="1.9" y1="21" x2="1" y2="21" width="0.1016" layer="1"/>
+<wire x1="1.9" y1="21" x2="1.9" y2="19.9" width="0.1016" layer="1"/>
+<wire x1="4" y1="19.7" x2="4" y2="19" width="0.1016" layer="1"/>
+<wire x1="6.1" y1="21" x2="6.1" y2="19.9" width="0.1016" layer="1"/>
+<wire x1="6.1" y1="21" x2="7" y2="21" width="0.1016" layer="1"/>
+<polygon width="0.05" layer="16">
+<vertex x="6.75" y="21.75"/>
+<vertex x="5.95" y="21.75" curve="-90"/>
+<vertex x="4" y="20" curve="-90"/>
+<vertex x="2.05" y="21.75"/>
+<vertex x="1.25" y="21.75" curve="83.375457"/>
+<vertex x="4" y="19.25" curve="84.266438"/>
+</polygon>
+<wire x1="6.1" y1="21" x2="7" y2="21" width="0.1016" layer="16"/>
+<wire x1="6.1" y1="21" x2="6.1" y2="19.9" width="0.1016" layer="16"/>
+<wire x1="4" y1="19.7" x2="4" y2="19" width="0.1016" layer="16"/>
+<wire x1="1.9" y1="21" x2="1.9" y2="19.9" width="0.1016" layer="16"/>
+<wire x1="1.9" y1="21" x2="1" y2="21" width="0.1016" layer="16"/>
 </package>
 <package name="WSON-8-6X5">
 <wire x1="-3" y1="2.5" x2="3" y2="2.5" width="0.05" layer="51"/>
@@ -2764,10 +2785,10 @@ design rules under a new name.</description>
 <vertex x="0.041071875" y="4.191"/>
 </polygon>
 <contactref element="J2" pad="33"/>
-<contactref element="J2" pad="GND-SM-B"/>
+<contactref element="J2" pad="GND2"/>
 <contactref element="J2" pad="7"/>
 <contactref element="J2" pad="75"/>
-<contactref element="J2" pad="GND"/>
+<contactref element="J2" pad="GND1"/>
 <contactref element="J2" pad="39"/>
 <contactref element="J2" pad="1"/>
 <contactref element="J2" pad="36"/>
@@ -2822,10 +2843,17 @@ design rules under a new name.</description>
 <via x="16.4084" y="15.2146" extent="1-16" drill="0.2032"/>
 <via x="8.8398" y="20.7022" extent="1-16" drill="0.2032"/>
 <via x="21.2858" y="15.1142" extent="1-16" drill="0.2032"/>
-<via x="11.6846" y="20.2704" extent="1-16" drill="0.2032"/>
+<via x="11.1004" y="20.3212" extent="1-16" drill="0.2032"/>
 <via x="12.9794" y="3.7846" extent="1-16" drill="0.2032"/>
 <via x="1.4732" y="2.6416" extent="1-16" drill="0.2032"/>
 <via x="21.3614" y="4.5974" extent="1-16" drill="0.2032"/>
+<contactref element="J2" pad="GND3"/>
+<wire x1="12.581" y1="18.8968" x2="12.581" y2="19.3431" width="0.254" layer="1"/>
+<wire x1="12.581" y1="19.3431" x2="12.46955" y2="19.45455" width="0.254" layer="1"/>
+<wire x1="12.46955" y1="19.45455" x2="12.3444" y2="19.5797" width="0.2032" layer="1"/>
+<wire x1="12.3444" y1="19.5797" x2="12.3444" y2="19.5801" width="0.2032" layer="1"/>
+<wire x1="12.3444" y1="19.5801" x2="11.6033" y2="20.3212" width="0.2032" layer="1"/>
+<wire x1="11.6033" y1="20.3212" x2="11.1004" y2="20.3212" width="0.2032" layer="1"/>
 </signal>
 <signal name="D3">
 <contactref element="J2" pad="42"/>
@@ -2887,9 +2915,9 @@ design rules under a new name.</description>
 <contactref element="U2" pad="53"/>
 <contactref element="C10" pad="1"/>
 <contactref element="C11" pad="1"/>
-<wire x1="13.581" y1="18.8968" x2="13.581" y2="19.227" width="0.2032" layer="1"/>
-<wire x1="13.581" y1="19.227" x2="11.6244" y2="21.1836" width="0.2032" layer="1"/>
-<wire x1="11.6244" y1="21.1836" x2="11.0448" y2="21.1836" width="0.2032" layer="1"/>
+<wire x1="13.581" y1="18.8968" x2="13.5302" y2="18.8968" width="0.2032" layer="1"/>
+<wire x1="13.5302" y1="18.8968" x2="11.2434" y2="21.1836" width="0.2032" layer="1"/>
+<wire x1="11.2434" y1="21.1836" x2="11.0448" y2="21.1836" width="0.2032" layer="1"/>
 <wire x1="13.307" y1="17.688" x2="13.307" y2="18.183" width="0.2032" layer="1"/>
 <wire x1="13.581" y1="18.457" x2="13.581" y2="18.8968" width="0.2032" layer="1"/>
 <wire x1="13.307" y1="18.183" x2="13.581" y2="18.457" width="0.2032" layer="1"/>

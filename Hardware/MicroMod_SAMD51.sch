@@ -17303,7 +17303,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="3.225" y1="2.9" x2="3.225" y2="0" width="0.0508" layer="47"/>
 <wire x1="2.025" y1="2.9" x2="2.025" y2="0" width="0.0508" layer="47"/>
 <wire x1="3.225" y1="2.9" x2="2.025" y2="2.9" width="0.0508" layer="47" curve="180"/>
-<smd name="GND-SM-B" x="4" y="19" dx="0.25" dy="0.25" layer="16" cream="no"/>
 <wire x1="11" y1="21" x2="11" y2="4.6" width="0.05" layer="47"/>
 <wire x1="10.4" y1="4" x2="11" y2="4.6" width="0.05" layer="47" curve="86.784874"/>
 <wire x1="-11" y1="4.6" x2="-10.4" y2="4" width="0.05" layer="47" curve="86.784874"/>
@@ -17311,32 +17310,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-11" y1="21" x2="-10" y2="22" width="0.05" layer="47" curve="-87.205638"/>
 <wire x1="5.75" y1="22" x2="2.25" y2="22" width="0.0508" layer="47" curve="-180"/>
 <wire x1="6.75" y1="22" x2="1.25" y2="22" width="0.0508" layer="47" curve="-180"/>
-<wire x1="1" y1="22" x2="7" y2="22" width="0.0508" layer="47"/>
-<wire x1="7" y1="21" x2="1" y2="21" width="0.0508" layer="47" curve="-180"/>
-<wire x1="7" y1="21" x2="7" y2="22" width="0.0508" layer="47"/>
-<wire x1="1" y1="21" x2="1" y2="22" width="0.0508" layer="47"/>
-<polygon width="0.05" layer="16">
-<vertex x="7" y="21"/>
-<vertex x="7" y="22"/>
-<vertex x="5.75" y="22" curve="-90"/>
-<vertex x="4" y="20.25" curve="-90"/>
-<vertex x="2.25" y="22"/>
-<vertex x="1" y="22"/>
-<vertex x="1" y="21" curve="90"/>
-<vertex x="4" y="18" curve="90"/>
-</polygon>
-<polygon width="0.05" layer="30">
-<vertex x="7" y="21"/>
-<vertex x="7" y="22"/>
-<vertex x="5.75" y="22" curve="-90"/>
-<vertex x="4" y="20.25" curve="-90"/>
-<vertex x="2.25" y="22"/>
-<vertex x="1" y="22"/>
-<vertex x="1" y="21" curve="90"/>
-<vertex x="4" y="18" curve="90"/>
-</polygon>
 <wire x1="-10.3" y1="0.55" x2="10.7" y2="0.55" width="0.02" layer="51"/>
-<pad name="GND" x="4" y="22" drill="3.5" diameter="5.5"/>
 <text x="-0.02" y="-1" size="0.762" layer="46" ratio="15" rot="R180" align="center">Chamfered Edge</text>
 <wire x1="10.58" y1="-0.8" x2="9.98" y2="-0.2" width="0.1016" layer="46"/>
 <wire x1="9.98" y1="-0.2" x2="9.98" y2="-0.6" width="0.1016" layer="46"/>
@@ -17345,6 +17319,53 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-10.02" y1="-0.2" x2="-10.42" y2="-0.2" width="0.1016" layer="46"/>
 <wire x1="-10.02" y1="-0.2" x2="-10.02" y2="-0.6" width="0.1016" layer="46"/>
 <text x="-0.02" y="-2.27" size="0.762" layer="46" ratio="15" rot="R180" align="center">0.8mm PCB</text>
+<polygon width="0.05" layer="1">
+<vertex x="1.25" y="21.75"/>
+<vertex x="2.05" y="21.75" curve="90"/>
+<vertex x="4" y="20" curve="90"/>
+<vertex x="5.95" y="21.75"/>
+<vertex x="6.75" y="21.75" curve="-83.375457"/>
+<vertex x="4" y="19.25" curve="-84.266438"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="1.25" y="22"/>
+<vertex x="2.25" y="22" curve="90"/>
+<vertex x="4" y="20.25" curve="90"/>
+<vertex x="5.75" y="22"/>
+<vertex x="6.75" y="22" curve="-90"/>
+<vertex x="4" y="19.25" curve="-90"/>
+</polygon>
+<polygon width="0.05" layer="30">
+<vertex x="6.75" y="22"/>
+<vertex x="5.75" y="22" curve="-90"/>
+<vertex x="4" y="20.25" curve="-90"/>
+<vertex x="2.25" y="22"/>
+<vertex x="1.25" y="22" curve="90"/>
+<vertex x="4" y="19.25" curve="90"/>
+</polygon>
+<pad name="GND1" x="1.9" y="21" drill="0.2"/>
+<pad name="GND3" x="6.1" y="21" drill="0.2"/>
+<pad name="GND2" x="4" y="19.7" drill="0.2"/>
+<text x="4" y="21.3" size="0.3" layer="20" align="center">Route
+Out</text>
+<wire x1="1.9" y1="21" x2="1" y2="21" width="0.1016" layer="1"/>
+<wire x1="1.9" y1="21" x2="1.9" y2="19.9" width="0.1016" layer="1"/>
+<wire x1="4" y1="19.7" x2="4" y2="19" width="0.1016" layer="1"/>
+<wire x1="6.1" y1="21" x2="6.1" y2="19.9" width="0.1016" layer="1"/>
+<wire x1="6.1" y1="21" x2="7" y2="21" width="0.1016" layer="1"/>
+<polygon width="0.05" layer="16">
+<vertex x="6.75" y="21.75"/>
+<vertex x="5.95" y="21.75" curve="-90"/>
+<vertex x="4" y="20" curve="-90"/>
+<vertex x="2.05" y="21.75"/>
+<vertex x="1.25" y="21.75" curve="83.375457"/>
+<vertex x="4" y="19.25" curve="84.266438"/>
+</polygon>
+<wire x1="6.1" y1="21" x2="7" y2="21" width="0.1016" layer="16"/>
+<wire x1="6.1" y1="21" x2="6.1" y2="19.9" width="0.1016" layer="16"/>
+<wire x1="4" y1="19.7" x2="4" y2="19" width="0.1016" layer="16"/>
+<wire x1="1.9" y1="21" x2="1.9" y2="19.9" width="0.1016" layer="16"/>
+<wire x1="1.9" y1="21" x2="1" y2="21" width="0.1016" layer="16"/>
 </package>
 <package name="USON-8">
 <description>USON-8. UX package with Winbond. 2x3mm. Only available up to 16Mbit.</description>
@@ -17745,7 +17766,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="J1" pin="G7/BUS7" pad="69"/>
 <connect gate="J1" pin="G8" pad="67"/>
 <connect gate="J1" pin="G9/ADC_D-/CAM_HSYNC" pad="65"/>
-<connect gate="J1" pin="GND" pad="1 7 33 36 39 45 75 GND GND-SM-B"/>
+<connect gate="J1" pin="GND" pad="1 7 33 36 39 45 75 GND1 GND2 GND3"/>
 <connect gate="J1" pin="I2C_!INT!" pad="16"/>
 <connect gate="J1" pin="I2C_SCL" pad="14"/>
 <connect gate="J1" pin="I2C_SCL1" pad="55"/>
