@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="PWR_HORIZ" color="1" fill="3" visible="yes" active="yes"/>
@@ -17,8 +17,8 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -36,7 +36,7 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
@@ -189,12 +189,16 @@ Four layer design</text>
 <wire x1="14.225" y1="2.9" x2="13.025" y2="2.9" width="0.1016" layer="20" curve="180"/>
 <wire x1="21.4" y1="4" x2="22" y2="4.6" width="0.05" layer="20" curve="86.784874"/>
 <wire x1="0" y1="4.6" x2="0.6" y2="4" width="0.05" layer="20" curve="86.784874"/>
-<text x="21.336" y="19.812" size="0.8128" layer="16" font="vector" ratio="20" rot="SMR270">v01</text>
+<text x="21.336" y="19.812" size="0.8128" layer="16" font="vector" ratio="20" rot="SMR270">v10</text>
 <text x="23.114" y="-14.097" size="1.778" layer="51" font="vector">Elias Santistevan</text>
 <wire x1="1" y1="22" x2="13.3" y2="22" width="0.05" layer="20"/>
 <wire x1="16.8" y1="22" x2="21" y2="22" width="0.05" layer="20"/>
 <wire x1="13.3" y1="22" x2="15.05" y2="20.25" width="0.05" layer="20" curve="90"/>
 <wire x1="15.05" y1="20.25" x2="16.8" y2="22" width="0.05" layer="20" curve="90"/>
+<text x="5.461" y="20.701" size="0.762" layer="1" font="vector" ratio="15">1</text>
+<text x="5.461" y="20.701" size="0.762" layer="2" font="vector" ratio="15">2</text>
+<text x="5.461" y="20.701" size="0.762" layer="15" font="vector" ratio="15">3</text>
+<text x="5.842" y="20.701" size="0.762" layer="16" font="vector" ratio="15" rot="MR0">4</text>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
