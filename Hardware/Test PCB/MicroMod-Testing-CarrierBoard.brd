@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
@@ -10889,7 +10889,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="28.6766" y1="22.6822" x2="35.9918" y2="22.6822" width="0.1778" layer="16"/>
 <wire x1="38.1" y1="20.574" x2="38.1" y2="15.367" width="0.1778" layer="16"/>
 <via x="38.1" y="15.367" extent="1-16" drill="0.3048"/>
-<wire x1="38.1" y1="15.367" x2="38.227" y2="15.239996875" width="0.1778" layer="1"/>
 <via x="38.227" y="11.557" extent="1-16" drill="0.3048"/>
 <wire x1="38.227" y1="11.557" x2="38.227" y2="9.1186" width="0.1778" layer="16"/>
 <wire x1="42.545" y1="8.128" x2="43.1546" y2="7.5184" width="0.1778" layer="16"/>
@@ -10899,8 +10898,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="35.9918" y1="22.6822" x2="38.1" y2="20.574" width="0.1778" layer="16"/>
 <wire x1="38.227" y1="9.1186" x2="39.2176" y2="8.128" width="0.1778" layer="16"/>
 <wire x1="39.2176" y1="8.128" x2="42.545" y2="8.128" width="0.1778" layer="16"/>
-<wire x1="38.1" y1="15.367" x2="38.227" y2="15.24" width="0.1778" layer="1"/>
-<wire x1="38.227" y1="15.24" x2="38.227" y2="11.557" width="0.1778" layer="1"/>
+<wire x1="38.227" y1="15.24" x2="38.1" y2="15.367" width="0.1778" layer="1"/>
+<wire x1="38.227" y1="11.557" x2="38.227" y2="15.24" width="0.1778" layer="1"/>
 </signal>
 <signal name="D7">
 <contactref element="J6" pad="73"/>
@@ -11290,20 +11289,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="5,1,185b9244a13f9bd8"/>
-<approved hash="5,1,44edd238a14f8762"/>
-<approved hash="5,1,3bd9bec3401f3d0d"/>
-<approved hash="5,1,185ee6ed4332465e"/>
-<approved hash="19,1,2828341420203c1c"/>
-<approved hash="19,1,7ef259d662bbb188"/>
-<approved hash="19,1,96f0bf3eb946649f"/>
-<approved hash="19,1,49ad008ebe9818c0"/>
-<approved hash="19,1,1e93b69a03e79d0d"/>
-<approved hash="5,1,8a00c5f89be91410"/>
-<approved hash="5,16,7cfe45cdde2422cf"/>
-<approved hash="5,16,7f341c91a0f1c8a7"/>
-<approved hash="19,1,61b152326672e546"/>
-<approved hash="19,1,12500b0d365bc94d"/>
+<approved hash="5,1,9ea9d15f8f4e00b9"/>
+<approved hash="5,1,3044d23aa141f3c5"/>
+<approved hash="5,1,0bb2923aa14d8833"/>
+<approved hash="5,1,0327bac1432d046b"/>
+<approved hash="5,1,00c2ff1f400c5950"/>
+<approved hash="5,16,6857512ade563666"/>
+<approved hash="5,16,6baf1ce3a0b1dc0e"/>
+<approved hash="19,1,1e45a3f50d1e9f97"/>
+<approved hash="19,1,6849672b525fe456"/>
+<approved hash="19,1,1a5c0c233077fa84"/>
+<approved hash="19,1,61122eb1162ad1ac"/>
+<approved hash="19,1,57ec502c441843d8"/>
+<approved hash="19,1,f5f0b4b9cd050469"/>
+<approved hash="19,1,71ad35a98af71bd0"/>
+<approved hash="23,1,46301a081deb41d3"/>
 </errors>
 </board>
 </drawing>
