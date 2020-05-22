@@ -27956,6 +27956,8 @@ or measure power</text>
 <wire x1="378.46" y1="71.12" x2="378.46" y2="160.02" width="0.1524" layer="97" style="longdash"/>
 <wire x1="378.46" y1="160.02" x2="266.7" y2="160.02" width="0.1524" layer="97" style="longdash"/>
 <text x="274.32" y="152.4" size="2.54" layer="94" font="vector">Bus Connections - I2C, SPI, UART, I2S, CAN</text>
+<text x="349.504" y="11.176" size="2.54" layer="94">Elias Santistevan</text>
+<text x="325.12" y="48.26" size="2.54" layer="94">Elias Santistevan</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
