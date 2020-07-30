@@ -16,8 +16,8 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-#ifndef _VARIANT_SAMD51_THING_PLUS_
-#define _VARIANT_SAMD51_THING_PLUS_
+#ifndef _VARIANT_SAMD51_MICROMOD_
+#define _VARIANT_SAMD51_MICROMOD_
 
 // The definitions here needs a SAMD core >=1.6.10
 #define ARDUINO_SAMD_VARIANT_COMPLIANCE 10610
