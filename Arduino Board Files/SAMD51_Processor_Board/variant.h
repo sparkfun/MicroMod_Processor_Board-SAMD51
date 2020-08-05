@@ -92,14 +92,13 @@ extern "C"
 /*
  * Analog pins
  */
-#define PIN_A0               (11ul)
+#define PIN_A0               (10ul)
 #define PIN_A1               (PIN_A0 + 1)
 #define PIN_A2               (PIN_A0 + 2)
 #define PIN_A3               (PIN_A0 + 3)
 #define PIN_A4               (PIN_A0 + 5)
 #define PIN_A5               (PIN_A0 + 6)
-#define PIN_A5               (PIN_A0 + 7)
-#define PIN_A5               (PIN_A0 + 8)
+#define PIN_A6               (PIN_A0 + 7)
 
 #define PIN_DAC0             PIN_A0
 #define PIN_DAC1             (49ul)
@@ -173,9 +172,9 @@ static const uint8_t FLASH_SCK  = PIN_SPI1_SCK ;
 static const uint8_t SDA = PIN_WIRE_SDA;
 static const uint8_t SCL = PIN_WIRE_SCL;
 
-#define PIN_WIRE_SDA         (27u)
-#define PIN_WIRE_SCL         (28u)
-#define PERIPH_WIRE          sercom2
+#define PIN_WIRE1_SDA         (27u)
+#define PIN_WIRE1_SCL         (28u)
+#define PERIPH_WIRE1          sercom2
 #define WIRE_IT_HANDLER      SERCOM2_Handler
 #define WIRE_IT_HANDLER_0    SERCOM2_0_Handler
 #define WIRE_IT_HANDLER_1    SERCOM2_1_Handler
