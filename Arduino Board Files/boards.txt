@@ -267,7 +267,7 @@ samd51_thing_plus.build.core=arduino51
 samd51_thing_plus.build.extra_flags=-D__SAMD51J20A__ -D__SAMD51__ {build.usb_flags} -D__FPU_PRESENT -DARM_MATH_CM4 -mfloat-abi=hard -mfpu=fpv4-sp-d16
 samd51_thing_plus.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
 samd51_thing_plus.build.openocdscript=openocd_scripts/arduino_zero.cfg
-samd51_thing_plus.build.variant=SparkFun_SAMD51_Processor_Board
+samd51_thing_plus.build.variant=SAMD51_Processor_Board
 samd51_thing_plus.build.variant_system_lib=
 samd51_thing_plus.build.vid=0x1B4F
 samd51_thing_plus.build.pid=0xF020

@@ -7,18 +7,18 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="PWR_HORIZ" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="GND-VERT" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="PWR_HORIZ" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="GND-VERT" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -35,7 +35,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -3444,8 +3444,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.2962" y1="14.4668" x2="1.3678" y2="14.3952" width="0.1016" layer="2"/>
 <wire x1="17.6" y1="13.6" x2="16.6" y2="13.6" width="0.1016" layer="2"/>
 <wire x1="16.6" y1="13.6" x2="15.8048" y2="14.3952" width="0.1016" layer="2"/>
-<contactref element="U2" pad="25"/>
-<wire x1="17.6" y1="13.6" x2="11.25" y2="6.1" width="0" layer="19" extent="1-1"/>
+<contactref element="U2" pad="44"/>
+<wire x1="17.6" y1="13.6" x2="16.75" y2="13.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D2">
 <contactref element="J2" pad="40"/>
@@ -3841,13 +3841,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </signal>
 <signal name="I2S_SDO">
 <contactref element="J2" pad="56"/>
-<wire x1="6.5744" y1="4.8726" x2="6.5744" y2="1.5504" width="0.1016" layer="16"/>
+<wire x1="6.5744" y1="5.5076" x2="6.5744" y2="1.5504" width="0.1016" layer="16"/>
 <wire x1="6.549" y1="1.525" x2="6.5744" y2="1.5504" width="0.1016" layer="16"/>
-<wire x1="17.018" y1="6.096" x2="18.2118" y2="7.2898" width="0.1016" layer="16"/>
+<wire x1="17.5006" y1="6.5786" x2="18.2118" y2="7.2898" width="0.1016" layer="16"/>
 <wire x1="18.2118" y1="7.2898" x2="18.2118" y2="12.5254" width="0.1016" layer="16"/>
 <via x="18.2118" y="12.5254" extent="1-16" drill="0.2"/>
-<wire x1="6.5744" y1="4.8726" x2="7.7978" y2="6.096" width="0.1016" layer="16"/>
-<wire x1="7.7978" y1="6.096" x2="17.018" y2="6.096" width="0.1016" layer="16"/>
+<wire x1="6.5744" y1="5.5076" x2="7.6454" y2="6.5786" width="0.1016" layer="16"/>
+<wire x1="7.6454" y1="6.5786" x2="17.5006" y2="6.5786" width="0.1016" layer="16"/>
 <contactref element="U2" pad="42"/>
 <wire x1="16.75" y1="12.6" x2="18.1372" y2="12.6" width="0.1016" layer="1"/>
 <wire x1="18.1372" y1="12.6" x2="18.2118" y2="12.5254" width="0.1016" layer="1"/>
@@ -3858,10 +3858,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="17.6022" y1="6.0706" x2="17.743" y2="6.2114" width="0.1016" layer="15"/>
 <wire x1="17.743" y1="13.0626" x2="17.743" y2="6.2114" width="0.1016" layer="15"/>
 <via x="17.6022" y="6.0706" extent="1-16" drill="0.2"/>
-<wire x1="7.049" y1="1.525" x2="7.049" y2="4.89" width="0.1016" layer="16"/>
-<wire x1="7.049" y1="4.89" x2="8.0264" y2="5.8674" width="0.1016" layer="16"/>
-<wire x1="17.399" y1="5.8674" x2="17.6022" y2="6.0706" width="0.1016" layer="16"/>
-<wire x1="8.0264" y1="5.8674" x2="17.399" y2="5.8674" width="0.1016" layer="16"/>
+<wire x1="7.049" y1="1.525" x2="7.049" y2="5.2456" width="0.1016" layer="16"/>
+<wire x1="7.049" y1="5.2456" x2="7.9248" y2="6.1214" width="0.1016" layer="16"/>
+<wire x1="17.5514" y1="6.1214" x2="17.6022" y2="6.0706" width="0.1016" layer="16"/>
+<wire x1="17.5514" y1="6.1214" x2="7.9248" y2="6.1214" width="0.1016" layer="16"/>
 <contactref element="U2" pad="43"/>
 <wire x1="16.75" y1="13.1" x2="17.7056" y2="13.1" width="0.1016" layer="1"/>
 <wire x1="17.7056" y1="13.1" x2="17.743" y2="13.0626" width="0.1016" layer="1"/>
@@ -3870,13 +3870,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J2" pad="50"/>
 <wire x1="8.049" y1="1.525" x2="8.049" y2="4.0104" width="0.1016" layer="16"/>
 <via x="11.81163125" y="5.2324" extent="1-16" drill="0.2"/>
-<wire x1="11.81163125" y1="5.2324" x2="11.68463125" y2="5.3594" width="0.1016" layer="16"/>
-<wire x1="11.68463125" y1="5.3594" x2="9.398" y2="5.3594" width="0.1016" layer="16"/>
-<wire x1="9.398" y1="5.3594" x2="8.049" y2="4.0104" width="0.1016" layer="16"/>
+<wire x1="11.81163125" y1="5.2324" x2="9.271" y2="5.2324" width="0.1016" layer="16"/>
+<wire x1="9.271" y1="5.2324" x2="8.049" y2="4.0104" width="0.1016" layer="16"/>
 <wire x1="11.81163125" y1="5.2324" x2="11.5476" y2="5.2324" width="0.1016" layer="1"/>
 <wire x1="11.5476" y1="5.2324" x2="11.25" y2="5.53" width="0.1016" layer="1"/>
-<contactref element="U2" pad="44"/>
-<wire x1="11.81163125" y1="5.2324" x2="16.75" y2="13.6" width="0" layer="19" extent="1-1"/>
+<contactref element="U2" pad="25"/>
+<wire x1="11.25" y1="5.53" x2="11.25" y2="6.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D5">
 <contactref element="J2" pad="46"/>

@@ -18349,6 +18349,21 @@ Diode with low voltage drop</description>
 0.3V drop at 10mA</text>
 <text x="68.58" y="198.12" size="1.27" layer="91">NO ADC on PA14</text>
 <text x="68.58" y="195.58" size="1.27" layer="91">Check ADC</text>
+<text x="358.14" y="137.16" size="1.27" layer="91">Move A6 -&gt; BATT/VIN
+Move A4 -&gt; G9
+Move A5 -&gt; G10</text>
+<text x="264.16" y="157.48" size="1.27" layer="91">Change SCL1, SDA1 -&gt; RX/TX</text>
+<text x="167.64" y="223.52" size="1.27" layer="91">MOS11-&gt;MISO1
+SCLK1-&gt;MOSI
+CS1 -&gt; SCLK
+MISO1-&gt;CS1</text>
+<text x="63.5" y="220.98" size="1.27" layer="91">MISO-&gt; SCLK
+SCLK-&gt; MISO
+</text>
+<text x="172.72" y="208.28" size="1.778" layer="91">Add master clock</text>
+<text x="35.56" y="203.2" size="1.778" layer="91">Replace second I2C with second RX</text>
+<text x="167.64" y="195.58" size="1.27" layer="91">PB16-&gt;I2S CLK
+PB12-&gt; ?</text>
 </plain>
 <instances>
 <instance part="SUPPLY3" gate="G$1" x="78.74" y="256.54" smashed="yes">
@@ -18797,9 +18812,9 @@ Diode with low voltage drop</description>
 <label x="185.42" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="PB12(SER4_0)"/>
-<wire x1="147.32" y1="198.12" x2="149.86" y2="198.12" width="0.1524" layer="91"/>
-<label x="149.86" y="198.12" size="1.27" layer="95" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PA23(SER3_1,SER5_0)"/>
+<wire x1="86.36" y1="172.72" x2="88.9" y2="172.72" width="0.1524" layer="91"/>
+<label x="86.36" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -19141,9 +19156,9 @@ Diode with low voltage drop</description>
 <pinref part="J2" gate="J1" pin="AUD_BCLK"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="PA23(SER3_1,SER5_0)"/>
-<wire x1="88.9" y1="172.72" x2="86.36" y2="172.72" width="0.1524" layer="91"/>
-<label x="86.36" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PB12(SER4_0)"/>
+<wire x1="147.32" y1="198.12" x2="149.86" y2="198.12" width="0.1524" layer="91"/>
+<label x="149.86" y="198.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D5" class="0">

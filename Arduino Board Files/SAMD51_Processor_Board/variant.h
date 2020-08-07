@@ -82,11 +82,11 @@ extern "C"
 
 // LEDs
 #define PIN_LED_13           (13u)
-#define PIN_LED_RXL          (25u)
-#define PIN_LED_TXL          (26u)
+//#define PIN_LED_RXL          (25u)
+//#define PIN_LED_TXL          (26u)
 #define PIN_LED              PIN_LED_13
-#define PIN_LED2             PIN_LED_RXL
-#define PIN_LED3             PIN_LED_TXL
+//#define PIN_LED2             PIN_LED_RXL
+//#define PIN_LED3             PIN_LED_TXL
 #define LED_BUILTIN          PIN_LED_13
 
 /*
@@ -95,7 +95,7 @@ extern "C"
 #define PIN_A0               (10ul)
 #define PIN_A1               (PIN_A0 + 1)
 #define PIN_A2               (PIN_A0 + 2)
-#define PIN_A3               (PIN_A0 + 3)
+#define PIN_A3               (PIN_A0 + 4)
 #define PIN_A4               (PIN_A0 + 5)
 #define PIN_A5               (PIN_A0 + 6)
 #define PIN_A6               (PIN_A0 + 7)
@@ -135,8 +135,8 @@ static const uint8_t ATN = PIN_ATN;
 #define PIN_SPI_SCK          (35u)
 #define PIN_SPI_SS           (36u)
 #define PERIPH_SPI           sercom0
-#define PAD_SPI_TX           SPI_PAD_0_SCK_2
-#define PAD_SPI_RX           SERCOM_RX_PAD_1
+#define PAD_SPI_TX           SPI_PAD_0_SCK_1
+#define PAD_SPI_RX           SERCOM_RX_PAD_2
 
 static const uint8_t SS	  = PIN_SPI_SS ;
 static const uint8_t MOSI = PIN_SPI_MOSI ;
@@ -149,8 +149,8 @@ static const uint8_t SCK  = PIN_SPI_SCK ;
 #define PIN_SPI1_SCK          (39u)
 #define PIN_SPI1_SS           (40u)
 #define PERIPH_SPI1           sercom4
-#define PAD_SPI1_TX           SPI_PAD_2_SCK_0
-#define PAD_SPI1_RX           SERCOM_RX_PAD_3
+#define PAD_SPI1_TX           SPI_PAD_0_SCK_1
+#define PAD_SPI1_RX           SERCOM_RX_PAD_2
 
 static const uint8_t FLASH_SS	  = PIN_SPI1_SS ; 	
 static const uint8_t FLASH_MOSI = PIN_SPI1_MOSI ;
@@ -162,12 +162,12 @@ static const uint8_t FLASH_SCK  = PIN_SPI1_SCK ;
 
 #define PIN_WIRE_SDA         (25u)
 #define PIN_WIRE_SCL         (26u)
-#define PERIPH_WIRE          sercom1
-#define WIRE_IT_HANDLER      SERCOM1_Handler
-#define WIRE_IT_HANDLER_0    SERCOM1_0_Handler
-#define WIRE_IT_HANDLER_1    SERCOM1_1_Handler
-#define WIRE_IT_HANDLER_2    SERCOM1_2_Handler
-#define WIRE_IT_HANDLER_3    SERCOM1_3_Handler
+#define PERIPH_WIRE          sercom3
+#define WIRE_IT_HANDLER      SERCOM3_Handler
+#define WIRE_IT_HANDLER_0    SERCOM3_0_Handler
+#define WIRE_IT_HANDLER_1    SERCOM3_1_Handler
+#define WIRE_IT_HANDLER_2    SERCOM3_2_Handler
+#define WIRE_IT_HANDLER_3    SERCOM3_3_Handler
 
 static const uint8_t SDA = PIN_WIRE_SDA;
 static const uint8_t SCL = PIN_WIRE_SCL;
@@ -175,11 +175,11 @@ static const uint8_t SCL = PIN_WIRE_SCL;
 #define PIN_WIRE1_SDA         (27u)
 #define PIN_WIRE1_SCL         (28u)
 #define PERIPH_WIRE1          sercom2
-#define WIRE_IT_HANDLER      SERCOM2_Handler
-#define WIRE_IT_HANDLER_0    SERCOM2_0_Handler
-#define WIRE_IT_HANDLER_1    SERCOM2_1_Handler
-#define WIRE_IT_HANDLER_2    SERCOM2_2_Handler
-#define WIRE_IT_HANDLER_3    SERCOM2_3_Handler
+#define WIRE1_IT_HANDLER      SERCOM2_Handler
+#define WIRE1_IT_HANDLER_0    SERCOM2_0_Handler
+#define WIRE1_IT_HANDLER_1    SERCOM2_1_Handler
+#define WIRE1_IT_HANDLER_2    SERCOM2_2_Handler
+#define WIRE1_IT_HANDLER_3    SERCOM2_3_Handler
 
 static const uint8_t SDA1 = PIN_WIRE1_SDA;
 static const uint8_t SCL1 = PIN_WIRE1_SCL;
@@ -198,16 +198,19 @@ static const uint8_t SCL1 = PIN_WIRE1_SCL;
 #define PIN_I2S_SDO          (30u)
 #define PIN_I2S_SDI          (31u)
 #define PIN_I2S_SCK          (32u)
-#define PIN_I2S_FS           (29u)
-#define PIN_I2S_MCK          // Not defined 
+#define PIN_I2S_FS           (20u)
+//#define PIN_I2S_MCK          // Not defined 
+
+#define EXTERNAL_FLASH_DEVICES W25Q128JVPIM
+#define EXTERNAL_FLASH_USE_QSPI
 
 // QSPI Pins
-#define PIN_QSPI_SCK    (45u)
-#define PIN_QSPI_CS     (46u)
 #define PIN_QSPI_IO0    (41u)
 #define PIN_QSPI_IO1    (42u)
 #define PIN_QSPI_IO2    (43u)
 #define PIN_QSPI_IO3    (44u)
+#define PIN_QSPI_SCK    (45u)
+#define PIN_QSPI_CS     (46u)
 
 #if !defined(VARIANT_QSPI_BAUD_DEFAULT)
   #define VARIANT_QSPI_BAUD_DEFAULT 5000000
