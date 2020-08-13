@@ -82,11 +82,7 @@ extern "C"
 
 // LEDs
 #define PIN_LED_13           (13u)
-//#define PIN_LED_RXL          (25u)
-//#define PIN_LED_TXL          (26u)
 #define PIN_LED              PIN_LED_13
-//#define PIN_LED2             PIN_LED_RXL
-//#define PIN_LED3             PIN_LED_TXL
 #define LED_BUILTIN          PIN_LED_13
 
 /*
@@ -121,18 +117,25 @@ static const uint8_t DAC1 = PIN_DAC1;
 static const uint8_t ATN = PIN_ATN;
 
 
-// Serial1
-#define PIN_SERIAL1_RX       (21ul)
-#define PIN_SERIAL1_TX       (22ul)
-#define PAD_SERIAL1_RX       SERCOM_RX_PAD_1
-#define PAD_SERIAL1_TX       UART_TX_PAD_0
+// Serial1 
+#define PIN_SERIAL1_RX       (40ul)
+#define PIN_SERIAL1_TX       (39ul)
+#define PAD_SERIAL1_TX       (UART_TX_PAD_0) // SAMD51 does not use PAD2 for transmit
+#define PAD_SERIAL1_RX       (SERCOM_RX_PAD_1)
+
+// Serial2
+//#define PIN_SERIAL2_RX       (25u)
+//#define PIN_SERIAL2_TX       (26u)
+//#define PAD_SERIAL2_TX       (UART_TX_PAD_0)
+//#define PAD_SERIAL2_RX       (SERCOM_RX_PAD_1)
+//#define SERCOM_SERIAL2       sercom3
 
 // SPI Interfaces
-#define SPI_INTERFACES_COUNT 2
+#define SPI_INTERFACES_COUNT 1
   
-#define PIN_SPI_MISO         (34u)
+#define PIN_SPI_MISO         (35u)
 #define PIN_SPI_MOSI         (33u)
-#define PIN_SPI_SCK          (35u)
+#define PIN_SPI_SCK          (34u)
 #define PIN_SPI_SS           (36u)
 #define PERIPH_SPI           sercom0
 #define PAD_SPI_TX           SPI_PAD_0_SCK_1
@@ -148,7 +151,7 @@ static const uint8_t SCK  = PIN_SPI_SCK ;
 #define PIN_SPI1_MOSI         (37u)
 #define PIN_SPI1_SCK          (39u)
 #define PIN_SPI1_SS           (40u)
-#define PERIPH_SPI1           sercom4
+#define PERIPH_SPI1           sercom5
 #define PAD_SPI1_TX           SPI_PAD_0_SCK_1
 #define PAD_SPI1_RX           SERCOM_RX_PAD_2
 
@@ -158,7 +161,7 @@ static const uint8_t FLASH_MISO = PIN_SPI1_MISO ;
 static const uint8_t FLASH_SCK  = PIN_SPI1_SCK ;
 
 // Wire Interfaces
-#define WIRE_INTERFACES_COUNT 2
+#define WIRE_INTERFACES_COUNT 1
 
 #define PIN_WIRE_SDA         (25u)
 #define PIN_WIRE_SCL         (26u)
@@ -174,12 +177,12 @@ static const uint8_t SCL = PIN_WIRE_SCL;
 
 #define PIN_WIRE1_SDA         (27u)
 #define PIN_WIRE1_SCL         (28u)
-#define PERIPH_WIRE1          sercom2
-#define WIRE1_IT_HANDLER      SERCOM2_Handler
-#define WIRE1_IT_HANDLER_0    SERCOM2_0_Handler
-#define WIRE1_IT_HANDLER_1    SERCOM2_1_Handler
-#define WIRE1_IT_HANDLER_2    SERCOM2_2_Handler
-#define WIRE1_IT_HANDLER_3    SERCOM2_3_Handler
+#define PERIPH_WIRE1          sercom4
+#define WIRE1_IT_HANDLER      SERCOM4_Handler
+#define WIRE1_IT_HANDLER_0    SERCOM4_0_Handler
+#define WIRE1_IT_HANDLER_1    SERCOM4_1_Handler
+#define WIRE1_IT_HANDLER_2    SERCOM4_2_Handler
+#define WIRE1_IT_HANDLER_3    SERCOM4_3_Handler
 
 static const uint8_t SDA1 = PIN_WIRE1_SDA;
 static const uint8_t SCL1 = PIN_WIRE1_SCL;
@@ -201,16 +204,6 @@ static const uint8_t SCL1 = PIN_WIRE1_SCL;
 #define PIN_I2S_FS           (20u)
 //#define PIN_I2S_MCK          // Not defined 
 
-#define EXTERNAL_FLASH_DEVICES W25Q128JVPIM
-#define EXTERNAL_FLASH_USE_QSPI
-
-// QSPI Pins
-#define PIN_QSPI_IO0    (41u)
-#define PIN_QSPI_IO1    (42u)
-#define PIN_QSPI_IO2    (43u)
-#define PIN_QSPI_IO3    (44u)
-#define PIN_QSPI_SCK    (45u)
-#define PIN_QSPI_CS     (46u)
 
 #if !defined(VARIANT_QSPI_BAUD_DEFAULT)
   #define VARIANT_QSPI_BAUD_DEFAULT 5000000
@@ -229,14 +222,15 @@ static const uint8_t SCL1 = PIN_WIRE1_SCL;
 //	------------------------
 //	 SERCOM DEFINITION
 //	------------------------
-extern SERCOM sercom0;
-extern SERCOM sercom1;
-extern SERCOM sercom2;
-extern SERCOM sercom3;
-extern SERCOM sercom4;
-extern SERCOM sercom5;
+extern SERCOM sercom0; //SPI
+extern SERCOM sercom1; 
+extern SERCOM sercom2; //SPI1
+extern SERCOM sercom3; //I2C or Serial2
+extern SERCOM sercom4; //I2C1
+extern SERCOM sercom5; //Serial1
 
 extern Uart Serial1;
+//extern Uart Serial2;
 
 #endif
 /*
@@ -259,8 +253,12 @@ extern Uart Serial1;
 #define SERIAL_PORT_USBVIRTUAL      Serial
 #define SERIAL_PORT_MONITOR         Serial
 // Serial has no physical pins broken out, so it's not listed as HARDWARE port
+
 #define SERIAL_PORT_HARDWARE        Serial1
 #define SERIAL_PORT_HARDWARE_OPEN   Serial1
 
-#endif 
+//#define SERIAL_PORT_HARDWARE        Serial2
+//#define SERIAL_PORT_HARDWARE_OPEN   Serial2
+
+#endif // SAMD51 MicroMod Processor Board
 

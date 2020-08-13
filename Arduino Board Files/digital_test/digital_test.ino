@@ -9,32 +9,65 @@ int G4 = 6;
 int G5 = 7;
 int G6 = 8;
 
+#define PIN_SERIAL2_RX       25
+#define PIN_SERIAL2_TX       26
+#define PAD_SERIAL2_TX       (UART_TX_PAD_0)
+#define PAD_SERIAL2_RX       (SERCOM_RX_PAD_1)
+
+Uart Serial2(&sercom3, 25, 26, PAD_SERIAL2_RX, PAD_SERIAL2_TX);
+
+void SERCOM3_0_Handler()
+{
+  Serial2.IrqHandler();
+}
+void SERCOM3_1_Handler()
+{
+  Serial2.IrqHandler();
+}
+void SERCOM3_2_Handler()
+{
+  Serial2.IrqHandler();
+}
+void SERCOM3_3_Handler()
+{
+  Serial2.IrqHandler();
+}
+
+
 void setup() {
 
-  pinMode(D0, OUTPUT);
-  pinMode(D1, OUTPUT);
-  pinMode(G0, OUTPUT);
-  pinMode(G1, OUTPUT);
-  pinMode(G2, OUTPUT);
-  pinMode(G3, OUTPUT);
-  pinMode(G4, OUTPUT);
-  pinMode(G5, OUTPUT);
-  pinMode(G6, OUTPUT);
-  pinMode(A1, OUTPUT);
-  pinMode(A2, OUTPUT);
-  pinMode(A3, OUTPUT);
-  pinMode(A4, OUTPUT);
-  pinMode(A5, OUTPUT);
-  pinMode(A6, OUTPUT);
-  pinMode(23, OUTPUT);
-  pinMode(24, OUTPUT);
-  Serial.begin(115200);
-  Serial.println("Digital Test.");
-  while(!Serial){};
+  //pinMode(D0, OUTPUT);
+  //pinMode(D1, OUTPUT);
+  //pinMode(G0, OUTPUT);
+  //pinMode(G1, OUTPUT);
+  //pinMode(G2, OUTPUT);
+  //pinMode(G3, OUTPUT);
+  //pinMode(G4, OUTPUT);
+  //pinMode(G5, OUTPUT);
+  //pinMode(G6, OUTPUT);
+  //pinMode(A1, OUTPUT);
+  //pinMode(A2, OUTPUT);
+  //pinMode(A3, OUTPUT);
+  //pinMode(A4, OUTPUT);
+  //pinMode(A5, OUTPUT);
+  //pinMode(A6, OUTPUT);
+  //pinMode(23, OUTPUT);
+  //pinMode(24, OUTPUT);
+  //Serial.begin(115200);
+  //Serial1.begin(9600);
+  Serial2.begin(9600);
+  //while(!Serial){delay(100);};
+  //Serial.println("Digital Test.");
 
 }
 
 void loop() {
+
+  //Serial1.print("1");
+  Serial2.write("1");
+  //Serial.print(Serial1.read());
+  //Serial.print("1");
+  delay(100);
  // Serial.println("D0");
  // digitalWrite(D0, HIGH);
  // delay(2000);
@@ -132,18 +165,18 @@ void loop() {
   //Serial.println("A6");
   //digitalWrite(A6, LOW);
   //delay(2000);
-  Serial.println("CANTX");
-  digitalWrite(23, HIGH);
-  delay(2000);
-  Serial.println("CANTX");
-  digitalWrite(23, LOW);
-  delay(2000);
-  Serial.println("CANRX");
-  digitalWrite(24, HIGH);
-  delay(2000);
-  Serial.println("CANRX");
-  digitalWrite(24, LOW);
-  delay(2000);
+ // Serial.println("CANTX");
+ // digitalWrite(23, HIGH);
+ // delay(2000);
+ // Serial.println("CANTX");
+ // digitalWrite(23, LOW);
+ // delay(2000);
+ // Serial.println("CANRX");
+ // digitalWrite(24, HIGH);
+ // delay(2000);
+ // Serial.println("CANRX");
+ // digitalWrite(24, LOW);
+ // delay(2000);
 
 }
 
