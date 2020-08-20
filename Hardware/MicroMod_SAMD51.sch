@@ -16956,6 +16956,9 @@ Diode with low voltage drop</description>
 <class number="1" name="Clock Signals" width="0" drill="0">
 <clearance class="1" value="0.2032"/>
 </class>
+<class number="2" name="USB" width="0.1016" drill="0">
+<clearance class="2" value="0.0762"/>
+</class>
 </classes>
 <parts>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
@@ -17017,15 +17020,11 @@ Diode with low voltage drop</description>
 <wire x1="134.62" y1="111.76" x2="0" y2="111.76" width="0.2032" layer="97" style="longdash"/>
 <text x="30.48" y="274.32" size="2.54" layer="94" font="vector" align="center">Microcontroller - SAMD51</text>
 <text x="25.4" y="104.14" size="2.54" layer="94" font="vector" align="center">Flash Memory - 128Mb</text>
-<text x="167.64" y="104.14" size="2.54" layer="94" font="vector" align="center">Reset Switch and Stat LED</text>
+<text x="149.86" y="104.14" size="2.54" layer="94" font="vector" align="center">Stat LED</text>
 <wire x1="231.14" y1="111.76" x2="231.14" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="349.758" y="11.176" size="2.54" layer="94" font="vector">Elias Santistevan</text>
 <text x="285.496" y="242.062" size="1.778" layer="97">0.65uA Leakage
 0.3V drop at 10mA</text>
-<text x="177.8" y="243.84" size="1.27" layer="91">COPI - PAD0
-SCLK - PAD1
-CIPO- PAD2
-CS - PAD3</text>
 </plain>
 <instances>
 <instance part="SUPPLY3" gate="G$1" x="78.74" y="256.54" smashed="yes">
@@ -17967,7 +17966,7 @@ CS - PAD3</text>
 <label x="297.18" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D-/USBHOST_D-" class="0">
+<net name="D-/USBHOST_D-" class="2">
 <segment>
 <pinref part="J2" gate="J1" pin="USB_D-"/>
 <wire x1="299.72" y1="210.82" x2="297.18" y2="210.82" width="0.1524" layer="91"/>
@@ -17979,7 +17978,7 @@ CS - PAD3</text>
 <pinref part="U2" gate="G$1" pin="PA24(SER3_2,SER5_2)"/>
 </segment>
 </net>
-<net name="D+/USB_HOST_D+" class="0">
+<net name="D+/USB_HOST_D+" class="2">
 <segment>
 <pinref part="J2" gate="J1" pin="USB_D+"/>
 <wire x1="299.72" y1="208.28" x2="297.18" y2="208.28" width="0.1524" layer="91"/>
