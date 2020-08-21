@@ -17025,6 +17025,8 @@ Diode with low voltage drop</description>
 <text x="349.758" y="11.176" size="2.54" layer="94" font="vector">Elias Santistevan</text>
 <text x="285.496" y="242.062" size="1.778" layer="97" font="vector">0.65uA Leakage
 0.3V drop at 10mA</text>
+<text x="106.68" y="259.08" size="2.54" layer="97" font="vector">Voltage Range:
+1.71 - 3.63V</text>
 </plain>
 <instances>
 <instance part="SUPPLY3" gate="G$1" x="78.74" y="256.54" smashed="yes">
