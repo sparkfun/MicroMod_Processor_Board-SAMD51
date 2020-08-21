@@ -17023,7 +17023,7 @@ Diode with low voltage drop</description>
 <text x="149.86" y="104.14" size="2.54" layer="94" font="vector" align="center">Stat LED</text>
 <wire x1="231.14" y1="111.76" x2="231.14" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="349.758" y="11.176" size="2.54" layer="94" font="vector">Elias Santistevan</text>
-<text x="285.496" y="242.062" size="1.778" layer="97">0.65uA Leakage
+<text x="285.496" y="242.062" size="1.778" layer="97" font="vector">0.65uA Leakage
 0.3V drop at 10mA</text>
 </plain>
 <instances>
@@ -17478,7 +17478,7 @@ Diode with low voltage drop</description>
 <label x="297.18" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="A0" class="0">
+<net name="A0/DAC" class="0">
 <segment>
 <wire x1="88.9" y1="231.14" x2="86.36" y2="231.14" width="0.1524" layer="91"/>
 <label x="86.36" y="231.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>

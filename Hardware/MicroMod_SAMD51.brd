@@ -10,15 +10,15 @@
 <grid distance="0.5" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="PWR_HORIZ" color="1" fill="3" visible="no" active="yes"/>
-<layer number="15" name="GND-VERT" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="PWR_HORIZ" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="15" name="GND-VERT" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -35,7 +35,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -162,43 +162,40 @@
 </layers>
 <board>
 <plain>
-<text x="26.67" y="1.27" size="1.778" layer="47" font="vector" ratio="15">Units in inches</text>
-<dimension x1="0" y1="58.42" x2="0" y2="0" x3="-13.97" y3="29.21" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="2.54" y1="55.88" x2="0" y2="0" x3="-11.43" y3="27.94" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="0" y1="0" x2="2.286" y2="18.415" x3="-8.763" y3="9.2075" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="0" y1="0" x2="22.86" y2="0" x3="11.43" y3="-3.81" textsize="1.27" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="0" y1="0" x2="2.54" y2="2.54" x3="1.27" y3="-6.35" textsize="1.27" textratio="15" layer="47" dtype="horizontal" unit="inch"/>
-<dimension x1="0" y1="0" x2="2.54" y2="2.54" x3="-6.35" y3="1.27" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <text x="31.62" y="32.94" size="1.778" layer="51" font="vector" ratio="15">0.8mm PCB
 45 degree chamfered edge
 Four layer design</text>
-<wire x1="0" y1="4.6" x2="0" y2="21" width="0.05" layer="20"/>
-<wire x1="22" y1="21" x2="22" y2="4.6" width="0.05" layer="20"/>
-<wire x1="21" y1="22" x2="22" y2="21" width="0.05" layer="20" curve="-87.205638"/>
-<wire x1="0" y1="21" x2="1" y2="22" width="0.05" layer="20" curve="-87.205638"/>
+<wire x1="0" y1="4.6" x2="0" y2="21" width="0.1016" layer="20"/>
+<wire x1="22" y1="21" x2="22" y2="4.6" width="0.1016" layer="20"/>
+<wire x1="21" y1="22" x2="22" y2="21" width="0.1016" layer="20" curve="-87.205638"/>
+<wire x1="0" y1="21" x2="1" y2="22" width="0.1016" layer="20" curve="-87.205638"/>
 <wire x1="0" y1="4.6" x2="0.6" y2="4" width="0.05" layer="20" curve="86.784874"/>
 <wire x1="21.4" y1="4" x2="22" y2="4.6" width="0.05" layer="20" curve="86.784874"/>
-<wire x1="20.925" y1="0" x2="14.225" y2="0" width="0.0508" layer="20"/>
-<wire x1="13.025" y1="0" x2="1.075" y2="0" width="0.0508" layer="20"/>
-<wire x1="1.075" y1="0" x2="1.075" y2="3.5" width="0.0508" layer="20"/>
-<wire x1="20.925" y1="3.5" x2="20.925" y2="0" width="0.0508" layer="20"/>
-<wire x1="21.4" y1="4" x2="20.925" y2="3.5" width="0.0508" layer="20" curve="84.949116"/>
-<wire x1="0.6" y1="4" x2="1.075" y2="3.5" width="0.0508" layer="20" curve="-83.820277"/>
+<wire x1="20.925" y1="0" x2="14.225" y2="0" width="0.1016" layer="20"/>
+<wire x1="13.025" y1="0" x2="1.075" y2="0" width="0.1016" layer="20"/>
+<wire x1="1.075" y1="0" x2="1.075" y2="3.5" width="0.1016" layer="20"/>
+<wire x1="20.925" y1="3.5" x2="20.925" y2="0" width="0.1016" layer="20"/>
+<wire x1="21.4" y1="4" x2="20.925" y2="3.5" width="0.1016" layer="20" curve="84.949116"/>
+<wire x1="0.6" y1="4" x2="1.075" y2="3.5" width="0.1016" layer="20" curve="-83.820277"/>
 <wire x1="14.225" y1="2.9" x2="14.225" y2="0" width="0.1016" layer="20"/>
 <wire x1="13.025" y1="2.9" x2="13.025" y2="0" width="0.1016" layer="20"/>
 <wire x1="14.225" y1="2.9" x2="13.025" y2="2.9" width="0.1016" layer="20" curve="180"/>
-<wire x1="21.4" y1="4" x2="22" y2="4.6" width="0.05" layer="20" curve="86.784874"/>
-<wire x1="0" y1="4.6" x2="0.6" y2="4" width="0.05" layer="20" curve="86.784874"/>
+<wire x1="21.4" y1="4" x2="22" y2="4.6" width="0.1016" layer="20" curve="86.784874"/>
+<wire x1="0" y1="4.6" x2="0.6" y2="4" width="0.1016" layer="20" curve="86.784874"/>
 <text x="21.336" y="19.812" size="0.8128" layer="16" font="vector" ratio="20" rot="SMR270">v11</text>
 <text x="23.114" y="-14.097" size="1.778" layer="51" font="vector">Elias Santistevan</text>
-<wire x1="1" y1="22" x2="13.3" y2="22" width="0.05" layer="20"/>
-<wire x1="16.8" y1="22" x2="21" y2="22" width="0.05" layer="20"/>
-<wire x1="13.3" y1="22" x2="15.05" y2="20.25" width="0.05" layer="20" curve="90"/>
-<wire x1="15.05" y1="20.25" x2="16.8" y2="22" width="0.05" layer="20" curve="90"/>
+<wire x1="1" y1="22" x2="13.3" y2="22" width="0.1016" layer="20"/>
+<wire x1="16.8" y1="22" x2="21" y2="22" width="0.1016" layer="20"/>
+<wire x1="13.3" y1="22" x2="15.05" y2="20.25" width="0.1016" layer="20" curve="90"/>
+<wire x1="15.05" y1="20.25" x2="16.8" y2="22" width="0.1016" layer="20" curve="90"/>
 <text x="5.461" y="20.701" size="0.762" layer="1" font="vector" ratio="15">1</text>
 <text x="6.041" y="20.681" size="0.762" layer="2" font="vector" ratio="15">2</text>
 <text x="6.651" y="20.661" size="0.762" layer="15" font="vector" ratio="15">3</text>
 <text x="7.822" y="20.651" size="0.762" layer="16" font="vector" ratio="15" rot="MR0">4</text>
+<dimension x1="13.025" y1="0" x2="1.075" y2="0" x3="7.05" y3="-5" textsize="1.27" textratio="15" layer="47" visible="yes"/>
+<dimension x1="20.925" y1="0" x2="14.225" y2="0" x3="17.575" y3="-5" textsize="1.27" textratio="15" layer="47" visible="yes"/>
+<dimension x1="20.925" y1="0" x2="21" y2="22" x3="27" y3="11" textsize="1.27" textratio="15" layer="47" dtype="vertical" visible="yes"/>
+<dimension x1="22" y1="21" x2="0" y2="21" x3="11" y3="26.5" textsize="1.27" textratio="15" layer="47" dtype="vertical" visible="yes"/>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
@@ -3345,7 +3342,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="16.168" y1="9.6" x2="16.75" y2="9.6" width="0.1016" layer="1"/>
 <wire x1="15.7806" y1="9.2126" x2="16.168" y2="9.6" width="0.1016" layer="1"/>
 </signal>
-<signal name="A0">
+<signal name="A0/DAC">
 <contactref element="J2" pad="34"/>
 <contactref element="U2" pad="3"/>
 <wire x1="5.26" y1="14.59" x2="5.25" y2="14.6" width="0.1016" layer="1"/>
