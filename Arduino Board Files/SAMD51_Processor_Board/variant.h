@@ -89,7 +89,7 @@ extern "C"
 
 // Analog pins
 //-------------------------------------------
-#define PIN_A0               (10ul)
+#define PIN_A0               (17ul)
 #define PIN_A1               (PIN_A0 + 1)
 #define PIN_A2               (PIN_A0 + 2)
 #define PIN_A3               (PIN_A0 + 4)
