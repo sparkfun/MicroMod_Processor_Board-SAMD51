@@ -3,7 +3,7 @@
 
 #define VENDOR_NAME "SparkFun Electronics"
 #define PRODUCT_NAME "SparkFun MicroMod SAMD51 Processor Board"
-#define VOLUME_LABEL "MMSAMD51BOOT"
+#define VOLUME_LABEL "MIMOBOOT"
 #define INDEX_URL "https://sparkfun.com/16791"
 #define BOARD_ID "SAMD51J20A-SparkFun-MicroMod-v0"
 
