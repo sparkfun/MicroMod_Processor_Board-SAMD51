@@ -17012,7 +17012,7 @@ Diode with low voltage drop</description>
 <sheets>
 <sheet>
 <plain>
-<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v11</text>
+<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v12</text>
 <text x="250.64" y="273.78" size="2.54" layer="94" font="vector" align="center">M.2 Connector</text>
 <wire x1="231.14" y1="279.4" x2="231.14" y2="111.76" width="0.1524" layer="97" style="longdash"/>
 <wire x1="134.62" y1="111.76" x2="134.62" y2="0" width="0.2032" layer="97" style="longdash"/>
