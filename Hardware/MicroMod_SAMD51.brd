@@ -162,9 +162,10 @@
 </layers>
 <board>
 <plain>
-<text x="31.62" y="32.94" size="1.778" layer="51" font="vector" ratio="15">0.8mm PCB
+<text x="31.62" y="30.4" size="1.778" layer="51" font="vector" ratio="15">0.8mm PCB
 45 degree chamfered edge
-Four layer design</text>
+Four layer design
+ENIG Finish</text>
 <wire x1="0" y1="4.6" x2="0" y2="21" width="0.1016" layer="20"/>
 <wire x1="22" y1="21" x2="22" y2="4.6" width="0.1016" layer="20"/>
 <wire x1="21" y1="22" x2="22" y2="21" width="0.1016" layer="20" curve="-87.205638"/>
