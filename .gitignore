@@ -2,3 +2,5 @@
 [._]*.un~
 *.swp
 Arduino Board Files/SAMD51 Processor Board/.variant.h.swo
+Arduino Board Files/digital_test/digital_test.ino
+Arduino Board Files/digital_test/digital_test.ino
