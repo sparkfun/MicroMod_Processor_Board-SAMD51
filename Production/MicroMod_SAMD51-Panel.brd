@@ -5813,7 +5813,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="6.299" y1="2.0544" x2="3.79" y2="4.5634" width="0.1016" layer="1"/>
 </signal>
 <signal name="!CS">
-<via x="5.3278" y="7.1834" extent="1-16" drill="0.2"/>
 <contactref element="U2" pad="16"/>
 <wire x1="5.3478" y1="8.1" x2="5.3478" y2="7.2034" width="0.1016" layer="1"/>
 <wire x1="5.3278" y1="7.1834" x2="5.3478" y2="7.2034" width="0.1016" layer="1"/>
@@ -6886,7 +6885,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="28.805940625" y1="2.0544" x2="26.296940625" y2="4.5634" width="0.1016" layer="1"/>
 </signal>
 <signal name="!CS1">
-<via x="27.834740625" y="7.1834" extent="1-16" drill="0.2"/>
 <contactref element="U4" pad="16"/>
 <wire x1="27.854740625" y1="8.1" x2="27.854740625" y2="7.2034" width="0.1016" layer="1"/>
 <wire x1="27.834740625" y1="7.1834" x2="27.854740625" y2="7.2034" width="0.1016" layer="1"/>
@@ -7959,7 +7957,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="51.31541875" y1="2.0544" x2="48.80641875" y2="4.5634" width="0.1016" layer="1"/>
 </signal>
 <signal name="!CS2">
-<via x="50.34421875" y="7.1834" extent="1-16" drill="0.2"/>
 <contactref element="U6" pad="16"/>
 <wire x1="50.36421875" y1="8.1" x2="50.36421875" y2="7.2034" width="0.1016" layer="1"/>
 <wire x1="50.34421875" y1="7.1834" x2="50.36421875" y2="7.2034" width="0.1016" layer="1"/>
@@ -9032,7 +9029,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="73.822359375" y1="2.0544" x2="71.313359375" y2="4.5634" width="0.1016" layer="1"/>
 </signal>
 <signal name="!CS3">
-<via x="72.851159375" y="7.1834" extent="1-16" drill="0.2"/>
 <contactref element="U8" pad="16"/>
 <wire x1="72.871159375" y1="8.1" x2="72.871159375" y2="7.2034" width="0.1016" layer="1"/>
 <wire x1="72.851159375" y1="7.1834" x2="72.871159375" y2="7.2034" width="0.1016" layer="1"/>
@@ -10105,7 +10101,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="96.331840625" y1="2.0544" x2="93.822840625" y2="4.5634" width="0.1016" layer="1"/>
 </signal>
 <signal name="!CS4">
-<via x="95.360640625" y="7.1834" extent="1-16" drill="0.2"/>
 <contactref element="U10" pad="16"/>
 <wire x1="95.380640625" y1="8.1" x2="95.380640625" y2="7.2034" width="0.1016" layer="1"/>
 <wire x1="95.360640625" y1="7.1834" x2="95.380640625" y2="7.2034" width="0.1016" layer="1"/>
@@ -11178,7 +11173,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="118.83878125" y1="2.0544" x2="116.32978125" y2="4.5634" width="0.1016" layer="1"/>
 </signal>
 <signal name="!CS5">
-<via x="117.86758125" y="7.1834" extent="1-16" drill="0.2"/>
 <contactref element="U12" pad="16"/>
 <wire x1="117.88758125" y1="8.1" x2="117.88758125" y2="7.2034" width="0.1016" layer="1"/>
 <wire x1="117.86758125" y1="7.1834" x2="117.88758125" y2="7.2034" width="0.1016" layer="1"/>
@@ -12251,7 +12245,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="141.348259375" y1="2.0544" x2="138.839259375" y2="4.5634" width="0.1016" layer="1"/>
 </signal>
 <signal name="!CS6">
-<via x="140.377059375" y="7.1834" extent="1-16" drill="0.2"/>
 <contactref element="U14" pad="16"/>
 <wire x1="140.397059375" y1="8.1" x2="140.397059375" y2="7.2034" width="0.1016" layer="1"/>
 <wire x1="140.377059375" y1="7.1834" x2="140.397059375" y2="7.2034" width="0.1016" layer="1"/>
@@ -13324,7 +13317,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="163.8552" y1="2.0544" x2="161.3462" y2="4.5634" width="0.1016" layer="1"/>
 </signal>
 <signal name="!CS7">
-<via x="162.884" y="7.1834" extent="1-16" drill="0.2"/>
 <contactref element="U16" pad="16"/>
 <wire x1="162.904" y1="8.1" x2="162.904" y2="7.2034" width="0.1016" layer="1"/>
 <wire x1="162.884" y1="7.1834" x2="162.904" y2="7.2034" width="0.1016" layer="1"/>
@@ -14397,7 +14389,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="15.699940625" y1="67.7956" x2="18.208940625" y2="65.2866" width="0.1016" layer="1"/>
 </signal>
 <signal name="!CS8">
-<via x="16.671140625" y="62.6666" extent="1-16" drill="0.2"/>
 <contactref element="U18" pad="16"/>
 <wire x1="16.651140625" y1="61.75" x2="16.651140625" y2="62.6466" width="0.1016" layer="1"/>
 <wire x1="16.671140625" y1="62.6666" x2="16.651140625" y2="62.6466" width="0.1016" layer="1"/>
@@ -15470,7 +15461,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="38.20941875" y1="67.7956" x2="40.71841875" y2="65.2866" width="0.1016" layer="1"/>
 </signal>
 <signal name="!CS9">
-<via x="39.18061875" y="62.6666" extent="1-16" drill="0.2"/>
 <contactref element="U20" pad="16"/>
 <wire x1="39.16061875" y1="61.75" x2="39.16061875" y2="62.6466" width="0.1016" layer="1"/>
 <wire x1="39.18061875" y1="62.6666" x2="39.16061875" y2="62.6466" width="0.1016" layer="1"/>
@@ -16543,7 +16533,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="60.716359375" y1="67.7956" x2="63.225359375" y2="65.2866" width="0.1016" layer="1"/>
 </signal>
 <signal name="!CS10">
-<via x="61.687559375" y="62.6666" extent="1-16" drill="0.2"/>
 <contactref element="U22" pad="16"/>
 <wire x1="61.667559375" y1="61.75" x2="61.667559375" y2="62.6466" width="0.1016" layer="1"/>
 <wire x1="61.687559375" y1="62.6666" x2="61.667559375" y2="62.6466" width="0.1016" layer="1"/>
@@ -17616,7 +17605,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="83.225840625" y1="67.7956" x2="85.734840625" y2="65.2866" width="0.1016" layer="1"/>
 </signal>
 <signal name="!CS11">
-<via x="84.197040625" y="62.6666" extent="1-16" drill="0.2"/>
 <contactref element="U24" pad="16"/>
 <wire x1="84.177040625" y1="61.75" x2="84.177040625" y2="62.6466" width="0.1016" layer="1"/>
 <wire x1="84.197040625" y1="62.6666" x2="84.177040625" y2="62.6466" width="0.1016" layer="1"/>
@@ -18689,7 +18677,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="105.73278125" y1="67.7956" x2="108.24178125" y2="65.2866" width="0.1016" layer="1"/>
 </signal>
 <signal name="!CS12">
-<via x="106.70398125" y="62.6666" extent="1-16" drill="0.2"/>
 <contactref element="U26" pad="16"/>
 <wire x1="106.68398125" y1="61.75" x2="106.68398125" y2="62.6466" width="0.1016" layer="1"/>
 <wire x1="106.70398125" y1="62.6666" x2="106.68398125" y2="62.6466" width="0.1016" layer="1"/>
@@ -19762,7 +19749,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="128.242259375" y1="67.7956" x2="130.751259375" y2="65.2866" width="0.1016" layer="1"/>
 </signal>
 <signal name="!CS13">
-<via x="129.213459375" y="62.6666" extent="1-16" drill="0.2"/>
 <contactref element="U28" pad="16"/>
 <wire x1="129.193459375" y1="61.75" x2="129.193459375" y2="62.6466" width="0.1016" layer="1"/>
 <wire x1="129.213459375" y1="62.6666" x2="129.193459375" y2="62.6466" width="0.1016" layer="1"/>
@@ -20835,7 +20821,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="150.7492" y1="67.7956" x2="153.2582" y2="65.2866" width="0.1016" layer="1"/>
 </signal>
 <signal name="!CS14">
-<via x="151.7204" y="62.6666" extent="1-16" drill="0.2"/>
 <contactref element="U30" pad="16"/>
 <wire x1="151.7004" y1="61.75" x2="151.7004" y2="62.6466" width="0.1016" layer="1"/>
 <wire x1="151.7204" y1="62.6666" x2="151.7004" y2="62.6466" width="0.1016" layer="1"/>
@@ -21908,7 +21893,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="173.256140625" y1="67.7956" x2="175.765140625" y2="65.2866" width="0.1016" layer="1"/>
 </signal>
 <signal name="!CS15">
-<via x="174.227340625" y="62.6666" extent="1-16" drill="0.2"/>
 <contactref element="U32" pad="16"/>
 <wire x1="174.207340625" y1="61.75" x2="174.207340625" y2="62.6466" width="0.1016" layer="1"/>
 <wire x1="174.227340625" y1="62.6666" x2="174.207340625" y2="62.6466" width="0.1016" layer="1"/>
