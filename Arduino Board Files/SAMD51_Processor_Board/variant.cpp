@@ -90,8 +90,8 @@ const PinDescription g_APinDescription[]=
   // I2C1 (SDA1/SCL1) 
   // 36..37
   // -----------------------------------------------------------------------------------------------------------------------------
-  { PORTA, 12, PIO_SERCOM, PIN_ATTR_PWM_G, No_ADC_Channel, TCC1_CH2, TC2_CH0, EXTERNAL_INT_12 },             // SCL1 - RX [SER4.1]
-  { PORTA, 13, PIO_SERCOM, PIN_ATTR_PWM_G, No_ADC_Channel, TCC1_CH3, TC2_CH1, EXTERNAL_INT_13 },             // SDA1 - TX [SER4.0]
+  { PORTA, 12, PIO_SERCOM_ALT, PIN_ATTR_PWM_G, No_ADC_Channel, TCC1_CH2, TC2_CH0, EXTERNAL_INT_12 },             // SCL1 - RX [SER4.1]
+  { PORTA, 13, PIO_SERCOM_ALT, PIN_ATTR_PWM_G, No_ADC_Channel, TCC1_CH3, TC2_CH1, EXTERNAL_INT_13 },             // SDA1 - TX [SER4.0]
   // -----------------------------------------------------------------------------------------------------------------------------
   
   // CAN BUS (CANRX/CANTX)

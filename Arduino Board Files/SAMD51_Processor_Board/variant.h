@@ -96,12 +96,16 @@ extern "C"
 #define PIN_A4               (PIN_A0 + 5)
 #define PIN_A5               (PIN_A0 + 6)
 #define PIN_A6               (PIN_A0 + 7)
+#define PIN_A7               (PIN_A0 + 8)
+#define PIN_A8               (PIN_A0 + 9)
+#define PIN_A9               (PIN_A0 + 10)
+#define PIN_A10              (PIN_A0) 
 
 //DAC
 #define PIN_DAC0             PIN_A0
 
 static const uint8_t A0   = PIN_A0;
-static const uint8_t A1   = PIN_A1;
+static const uint8_t A1   = PIN_A0;
 static const uint8_t A2   = PIN_A2;
 static const uint8_t A3   = PIN_A3;
 static const uint8_t A4   = PIN_A4;
@@ -133,7 +137,7 @@ static const uint8_t ATN = PIN_ATN;
 
 // SPI Interfaces
 //-------------------------------------------
-#define SPI_INTERFACES_COUNT 1
+#define SPI_INTERFACES_COUNT 2
   
 #define PIN_SPI_MOSI         (45u)
 #define PIN_SPI_SCK          (46u)
@@ -153,7 +157,7 @@ static const uint8_t SCK  = PIN_SPI_SCK ;
 #define PIN_SPI1_SCK          (50u)
 #define PIN_SPI1_MISO         (51u)
 #define PIN_SPI1_SS           (52u)
-#define PERIPH_SPI1           sercom5
+#define PERIPH_SPI1           sercom2
 #define PAD_SPI1_TX           SPI_PAD_0_SCK_1
 #define PAD_SPI1_RX           SERCOM_RX_PAD_2
 //-------------------------------------------
@@ -165,7 +169,7 @@ static const uint8_t SCK1  = PIN_SPI1_SCK ;
 
 // Wire Interfaces
 //-------------------------------------------
-#define WIRE_INTERFACES_COUNT 1
+#define WIRE_INTERFACES_COUNT 2
 
 #define PIN_WIRE_SCL         (34u)
 #define PIN_WIRE_SDA         (35u)
