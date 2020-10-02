@@ -17599,7 +17599,7 @@ Diode with low voltage drop</description>
 <label x="297.18" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SCLK" class="1">
+<net name="SCK" class="1">
 <segment>
 <wire x1="88.9" y1="223.52" x2="86.36" y2="223.52" width="0.1524" layer="91"/>
 <label x="86.36" y="223.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
@@ -17731,7 +17731,7 @@ Diode with low voltage drop</description>
 <label x="81.28" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SCLK1" class="1">
+<net name="SCK1" class="1">
 <segment>
 <pinref part="U1" gate="U1" pin="CLK"/>
 <wire x1="76.2" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
