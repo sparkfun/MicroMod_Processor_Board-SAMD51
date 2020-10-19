@@ -1,41 +1,33 @@
-SparkFun <PRODUCT NAME>
+SparkFun MicroMod SAMD51 Processor
 ========================================
 
-![SparkFun Part Name](URL for picture of part)
+[![*SparkFun MicroMod SAMD51 Processor (DEV-16791)*](https://cdn.sparkfun.com/assets/parts/1/5/6/9/8/16791-SparkFun_MicroMod_SAMD51_Processor-01a.jpg)](https://www.sparkfun.com/products/16791)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+With a 32-bit ARM Cortex-M4F MCU, the SparkFun MicroMod SAMD51 Processor Board is one powerful microcontroller packaged on a small board! The provides you with an economical and easy to use development platform if you're needing more power with minimal working space. This MicroMod SAMD51 even comes flashed with the same convenient UF2 bootloader like the SAMD51 Thing Plus and the RedBoard Turbo. The MicroMod SAMD51 uses the MicroMod Hardware pinout to easily switch between carrier boards.
 
-<Basic description of the part.>
+The ATSAMD51J20 utilizes a 32-bit ARM Cortex-M4 processor with Floating Point Unit (FPU), running up to 120MHz, up to 1MB of flash memory, up to 256KB of SRAM with ECC, up to 6 SERCOM interfaces, and other features.
 
 Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
 * **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
+* **/Software** - Related software for the MicroMod SAMD51
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
+* **[Installing Board Definitions in the Arduino IDE](https://learn.sparkfun.com/tutorials/installing-board-definitions-in-the-arduino-ide)** - Information about installing Arduino Board Files for Arduino
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/micromod-samd51-processor-board-hookup-guide)** - Basic hookup guide
 
 Product Versions
 ----------------
-* [Part SKU](part URL)- Basic part and short description here
-* [Retail part SKU](retail URL)- Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
+* [DEV-16791](https://www.sparkfun.com/products/16791)- Basic part and short description here
 
 Version History
 ---------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* [v1.2](URL for tag specific to this version) - Initial Release 
 
 License Information
 -------------------
