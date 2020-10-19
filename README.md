@@ -1,7 +1,10 @@
 SparkFun MicroMod SAMD51 Processor
 ========================================
 
-[![*SparkFun MicroMod SAMD51 Processor (DEV-16791)*](https://cdn.sparkfun.com/assets/parts/1/5/6/9/8/16791-SparkFun_MicroMod_SAMD51_Processor-01a.jpg)](https://www.sparkfun.com/products/16791)
+
+[![SparkFun MicroMod SAMD51 Processor (DEV-16791)](https://cdn.sparkfun.com/assets/parts/1/5/6/9/8/16791-SparkFun_MicroMod_SAMD51_Processor-01a.jpg)](https://www.sparkfun.com/products/16791)
+
+[*SparkFun MicroMod SAMD51 Processor (DEV-16791)*](https://www.sparkfun.com/products/16791)
 
 With a 32-bit ARM Cortex-M4F MCU, the SparkFun MicroMod SAMD51 Processor Board is one powerful microcontroller packaged on a small board! The provides you with an economical and easy to use development platform if you're needing more power with minimal working space. This MicroMod SAMD51 even comes flashed with the same convenient UF2 bootloader like the SAMD51 Thing Plus and the RedBoard Turbo. The MicroMod SAMD51 uses the MicroMod Hardware pinout to easily switch between carrier boards.
 
