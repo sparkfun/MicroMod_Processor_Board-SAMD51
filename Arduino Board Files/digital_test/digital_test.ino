@@ -1,59 +1,36 @@
 #include <Wire.h>
 
-
+#define NUM_PINS 30
+int pin = 0;
 void setup()
 {
-  Wire1.begin();
-  Serial.begin(115200);
-  Serial1.begin(115200);
-
-  while(!Serial){};
-  Serial.println("\nI2C Scanner");
-  while(true){
-    Serial1.write(1);
-    delay(200);
+  for( pin = 0; pin < NUM_PINS; pin++){
+    pinMode(pin, OUTPUT);
   }
+
+  Serial.begin(115200);
+  while(!Serial){};
+  Serial.println("---PIN TEST---");
 }
 
 
 void loop()
 {
-  byte error, address;
-  int nDevices;
+  int pinOut = 0;
+  while(true){
+    Serial.print("PIN: ");
+    Serial.println(pinOut);
+    digitalWrite(pinOut, HIGH);
+    delay(100);
+    digitalWrite(pinOut, LOW);
+    delay(100);
 
-  Serial.println("Scanning...");
-
-  nDevices = 0;
-  for(address = 1; address < 127; address++ ) 
-  {
-    // The i2c_scanner uses the return value of
-    // the Write.endTransmisstion to see if
-    // a device did acknowledge to the address.
-    Wire1.beginTransmission(address);
-    error = Wire1.endTransmission();
-
-    if (error == 0)
-    {
-      Serial.print("I2C device found at address 0x");
-      if (address<16) 
-        Serial.print("0");
-      Serial.print(address,HEX);
-      Serial.println("  !");
-
-      nDevices++;
+    Serial.println("End of Pins");
+    String input = Serial.readStringUntil('\n');
+    if(input == "n"){ 
+      pinOut += 1; 
     }
-    else if (error==4) 
-    {
-      Serial.print("Unknow error at address 0x");
-      if (address<16) 
-        Serial.print("0");
-      Serial.println(address,HEX);
-    }    
   }
-  if (nDevices == 0)
-    Serial.println("No I2C devices found\n");
-  else
-    Serial.println("done\n");
 
-  delay(5000);           // wait 5 seconds for next scan
+  delay(100);
 }

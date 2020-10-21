@@ -17980,7 +17980,7 @@ Diode with low voltage drop</description>
 <pinref part="U2" gate="G$1" pin="PA24(SER3_2,SER5_2)"/>
 </segment>
 </net>
-<net name="D+/USB_HOST_D+" class="2">
+<net name="D+/USBHOST_D+" class="2">
 <segment>
 <pinref part="J2" gate="J1" pin="USB_D+"/>
 <wire x1="299.72" y1="208.28" x2="297.18" y2="208.28" width="0.1524" layer="91"/>

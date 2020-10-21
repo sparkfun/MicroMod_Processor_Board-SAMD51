@@ -3987,7 +3987,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="19.426" y1="2.291" x2="19.299" y2="2.164" width="0.1016" layer="1"/>
 <wire x1="19.299" y1="1.275" x2="19.299" y2="2.164" width="0.1016" layer="1"/>
 </signal>
-<signal name="D+/USB_HOST_D+" class="2">
+<signal name="D+/USBHOST_D+" class="2">
 <contactref element="J2" pad="3"/>
 <wire x1="20.1546" y1="4.0436" x2="20.1546" y2="13.9024" width="0.1016" layer="1"/>
 <wire x1="19.632" y1="3.521" x2="20.1546" y2="4.0436" width="0.1016" layer="1"/>
