@@ -30,7 +30,7 @@ Product Versions
 
 Version History
 ---------------
-* [v1.2](URL for tag specific to this version) - Initial Release 
+* v1.2 - Initial Release 
 
 License Information
 -------------------
