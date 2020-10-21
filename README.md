@@ -30,7 +30,7 @@ Product Versions
 
 Version History
 ---------------
-* v1.2 - Initial Release 
+* [v1.2](https://github.com/sparkfun/MicroMod_Processor_Board-SAMD51/tree/v1.2) - Initial Release 
 
 License Information
 -------------------
