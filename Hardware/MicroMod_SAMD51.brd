@@ -3611,7 +3611,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="9.09" y1="9.38" x2="9.09" y2="9.01" width="0.1016" layer="15"/>
 <wire x1="9.09" y1="9.01" x2="9.08" y2="9" width="0.1016" layer="15"/>
 </signal>
-<signal name="CAN_TXO">
+<signal name="D38">
 <contactref element="J2" pad="43"/>
 <wire x1="9.799" y1="1.275" x2="9.8998" y2="1.3758" width="0.1016" layer="1"/>
 <wire x1="11.6496" y1="4.2672" x2="12.2612" y2="4.8788" width="0.1016" layer="1"/>
@@ -3622,7 +3622,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.25" y1="6.1" x2="12.2612" y2="6.0888" width="0.1016" layer="1"/>
 <wire x1="12.2612" y1="6.0888" x2="12.2612" y2="4.8788" width="0.1016" layer="1"/>
 </signal>
-<signal name="CAN_RXI">
+<signal name="D39">
 <contactref element="J2" pad="41"/>
 <wire x1="10.299" y1="1.275" x2="10.299" y2="3.04990625" width="0.1016" layer="1"/>
 <wire x1="10.299" y1="3.04990625" x2="11.28769375" y2="4.0386" width="0.1016" layer="1"/>

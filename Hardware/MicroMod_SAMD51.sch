@@ -17683,7 +17683,7 @@ Diode with low voltage drop</description>
 <label x="149.86" y="205.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CAN_TXO" class="0">
+<net name="D38" class="0">
 <segment>
 <wire x1="147.32" y1="193.04" x2="149.86" y2="193.04" width="0.1524" layer="91"/>
 <label x="149.86" y="193.04" size="1.27" layer="95" xref="yes"/>
@@ -17695,7 +17695,7 @@ Diode with low voltage drop</description>
 <label x="297.18" y="195.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CAN_RXI" class="0">
+<net name="D39" class="0">
 <segment>
 <wire x1="147.32" y1="190.5" x2="149.86" y2="190.5" width="0.1524" layer="91"/>
 <label x="149.86" y="190.5" size="1.27" layer="95" xref="yes"/>
