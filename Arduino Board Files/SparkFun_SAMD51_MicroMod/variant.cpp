@@ -94,11 +94,11 @@ const PinDescription g_APinDescription[]=
   { PORTA, 13, PIO_SERCOM_ALT, PIN_ATTR_PWM_G, No_ADC_Channel, TCC1_CH3, TC2_CH1, EXTERNAL_INT_13 },             // SDA1 - TX [SER4.0]
   // -----------------------------------------------------------------------------------------------------------------------------
   
-  // CAN BUS (CANRX/CANTX)
+  // More general IO
   // 38..39
   // ---------------------------------------------------------------------------------------------------------------------
-  { PORTB, 14, PIO_AC_CLK, PIN_ATTR_PWM_F, No_ADC_Channel, TCC4_CH0, TC5_CH0, EXTERNAL_INT_14 },             // CAN TXO
-  { PORTB, 15, PIO_AC_CLK, PIN_ATTR_PWM_F, No_ADC_Channel, TCC4_CH1, TC5_CH1, EXTERNAL_INT_15 },             // CAN RXI
+  { PORTB, 14, PIO_AC_CLK, PIN_ATTR_PWM_F, No_ADC_Channel, TCC4_CH0, TC5_CH0, EXTERNAL_INT_14 },             
+  { PORTB, 15, PIO_AC_CLK, PIN_ATTR_PWM_F, No_ADC_Channel, TCC4_CH1, TC5_CH1, EXTERNAL_INT_15 },            
   // ---------------------------------------------------------------------------------------------------------------------
 
 
