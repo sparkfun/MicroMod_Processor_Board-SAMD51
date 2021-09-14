@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17012,7 +17012,7 @@ Diode with low voltage drop</description>
 <sheets>
 <sheet>
 <plain>
-<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v12</text>
+<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v13</text>
 <text x="250.64" y="273.78" size="2.54" layer="94" font="vector" align="center">M.2 Connector</text>
 <wire x1="231.14" y1="279.4" x2="231.14" y2="111.76" width="0.1524" layer="97" style="longdash"/>
 <wire x1="134.62" y1="111.76" x2="134.62" y2="0" width="0.2032" layer="97" style="longdash"/>
@@ -17709,14 +17709,14 @@ Diode with low voltage drop</description>
 </net>
 <net name="COPI1" class="0">
 <segment>
-<pinref part="U1" gate="U1" pin="D1/DO"/>
-<wire x1="76.2" y1="50.8" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
-<label x="81.28" y="50.8" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <wire x1="88.9" y1="210.82" x2="86.36" y2="210.82" width="0.1524" layer="91"/>
 <label x="86.36" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="PA09(SER0_1,SER2_0,ADC)"/>
+</segment>
+<segment>
+<pinref part="U1" gate="U1" pin="D0/DI"/>
+<wire x1="76.2" y1="53.34" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
+<label x="81.28" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CIPO1" class="0">
@@ -17726,9 +17726,9 @@ Diode with low voltage drop</description>
 <pinref part="U2" gate="G$1" pin="PA10(SER0_2,SER2_2,ADC)"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="D0/DI"/>
-<wire x1="76.2" y1="53.34" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
-<label x="81.28" y="53.34" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="U1" pin="D1/DO"/>
+<wire x1="76.2" y1="50.8" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
+<label x="81.28" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCK1" class="1">

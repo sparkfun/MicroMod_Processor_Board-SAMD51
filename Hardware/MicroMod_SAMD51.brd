@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="PWR_HORIZ" color="1" fill="3" visible="no" active="yes"/>
-<layer number="15" name="GND-VERT" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="PWR_HORIZ" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="15" name="GND-VERT" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -183,7 +183,7 @@ ENIG Finish</text>
 <wire x1="14.225" y1="2.9" x2="13.025" y2="2.9" width="0.1016" layer="20" curve="180"/>
 <wire x1="21.4" y1="4" x2="22" y2="4.6" width="0.1016" layer="20" curve="86.784874"/>
 <wire x1="0" y1="4.6" x2="0.6" y2="4" width="0.1016" layer="20" curve="86.784874"/>
-<text x="21.336" y="19.812" size="0.8128" layer="16" font="vector" ratio="20" rot="SMR270">v12</text>
+<text x="21.336" y="19.812" size="0.8128" layer="16" font="vector" ratio="20" rot="SMR270">v13</text>
 <text x="23.114" y="-14.097" size="1.778" layer="51" font="vector">Elias Santistevan</text>
 <wire x1="1" y1="22" x2="13.3" y2="22" width="0.1016" layer="20"/>
 <wire x1="16.8" y1="22" x2="21" y2="22" width="0.1016" layer="20"/>
@@ -3184,11 +3184,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.2468" y1="19.769" x2="12.8736" y2="19.1422" width="0.2032" layer="1"/>
 <wire x1="12.8736" y1="19.1422" x2="13.1898" y2="19.1422" width="0.2032" layer="1"/>
 <via x="11.2898" y="21.1922" extent="1-16" drill="0.2"/>
-<via x="8.1754" y="10.5394" extent="1-16" drill="0.2"/>
+<via x="7.9054" y="10.5294" extent="1-16" drill="0.2"/>
 <via x="13.1754" y="11.0394" extent="1-16" drill="0.2"/>
 <via x="12.6754" y="13.0394" extent="1-16" drill="0.2"/>
 <via x="7.6154" y="13.9894" extent="1-16" drill="0.2"/>
 <via x="5.5454" y="5.6094" extent="1-16" drill="0.2"/>
+<via x="7.9854" y="12.1094" extent="1-16" drill="0.2"/>
+<via x="8.6354" y="9.4394" extent="1-16" drill="0.2"/>
+<via x="14.5554" y="8.1094" extent="1-16" drill="0.2"/>
+<via x="18.9854" y="5.3594" extent="1-16" drill="0.2"/>
+<via x="2.1254" y="8.9094" extent="1-16" drill="0.2"/>
+<via x="15.2554" y="18.4094" extent="1-16" drill="0.2"/>
+<via x="15.4654" y="15.1394" extent="1-16" drill="0.2"/>
+<via x="9.7854" y="20.9894" extent="1-16" drill="0.2"/>
+<via x="7.5354" y="14.9394" extent="1-16" drill="0.2"/>
+<via x="2.6054" y="7.8394" extent="1-16" drill="0.2"/>
 </signal>
 <signal name="D3/G1">
 <contactref element="J2" pad="42"/>
@@ -3632,26 +3642,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="11.8012" y1="4.0386" x2="12.75" y2="4.9874" width="0.1016" layer="1"/>
 </signal>
 <signal name="COPI1">
-<contactref element="U1" pad="2"/>
 <contactref element="U2" pad="18"/>
 <wire x1="7.75" y1="6.1" x2="7.75" y2="7.3" width="0.1016" layer="1"/>
 <wire x1="7.75" y1="7.3" x2="7.78" y2="7.33" width="0.1016" layer="1"/>
 <via x="7.78" y="7.33" extent="1-16" drill="0.2"/>
-<wire x1="7.78" y1="7.33" x2="7.78" y2="11.78" width="0.1016" layer="15"/>
-<wire x1="7.78" y1="11.78" x2="8" y2="12" width="0.1016" layer="15"/>
-<via x="8" y="12" extent="1-16" drill="0.2"/>
-<wire x1="14.122" y1="12.573" x2="14.332" y2="12.573" width="0.1016" layer="16"/>
-<wire x1="14.122" y1="12.573" x2="13.549" y2="12" width="0.1016" layer="16"/>
-<wire x1="8" y1="12" x2="13.549" y2="12" width="0.1016" layer="16"/>
+<contactref element="U1" pad="5"/>
+<wire x1="7.78" y1="7.33" x2="7.78" y2="9.78" width="0.1016" layer="16"/>
+<wire x1="8.033" y1="10.033" x2="8.782" y2="10.033" width="0.1016" layer="16"/>
+<wire x1="7.78" y1="9.78" x2="8.033" y2="10.033" width="0.1016" layer="16"/>
 </signal>
 <signal name="CIPO1">
 <contactref element="U2" pad="19"/>
-<contactref element="U1" pad="5"/>
 <wire x1="8.25" y1="6.1" x2="8.25" y2="7.33" width="0.1016" layer="1"/>
 <via x="8.25" y="7.33" extent="1-16" drill="0.2"/>
-<wire x1="8.25" y1="7.33" x2="8.25" y2="9.641" width="0.1016" layer="16"/>
-<wire x1="8.642" y1="10.033" x2="8.25" y2="9.641" width="0.1016" layer="16"/>
-<wire x1="8.642" y1="10.033" x2="8.782" y2="10.033" width="0.1016" layer="16"/>
+<contactref element="U1" pad="2"/>
+<wire x1="8.504" y1="10.4032875" x2="8.504" y2="10.6755125" width="0.1016" layer="15"/>
+<wire x1="8.25" y1="7.33" x2="8.25" y2="10.1492875" width="0.1016" layer="15"/>
+<wire x1="8.25" y1="10.1492875" x2="8.504" y2="10.4032875" width="0.1016" layer="15"/>
+<wire x1="8.504" y1="10.6755125" x2="8.5" y2="10.6795125" width="0.1016" layer="15"/>
+<wire x1="8.5" y1="10.6795125" x2="8.5" y2="12" width="0.1016" layer="15"/>
+<via x="8.5" y="12" extent="1-16" drill="0.2"/>
+<wire x1="14.332" y1="12.213" x2="14.119" y2="12" width="0.1016" layer="16"/>
+<wire x1="14.332" y1="12.213" x2="14.332" y2="12.573" width="0.1016" layer="16"/>
+<wire x1="8.5" y1="12" x2="14.119" y2="12" width="0.1016" layer="16"/>
 </signal>
 <signal name="SCK1" class="1">
 <contactref element="U1" pad="6"/>
@@ -3821,7 +3834,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="8.75" y1="6.1" x2="8.73" y2="6.12" width="0.1016" layer="1"/>
 <via x="8.73" y="7.53" extent="1-16" drill="0.2"/>
 <wire x1="15.36" y1="7.72" x2="15.36" y2="12.975" width="0.1016" layer="16"/>
-<wire x1="8.73" y1="7.53" x2="13.78" y2="7.53" width="0.1016" layer="16"/>
+<wire x1="8.73" y1="7.53" x2="9" y2="7.53" width="0.1016" layer="16"/>
+<wire x1="9" y1="7.53" x2="13.78" y2="7.53" width="0.1016" layer="16"/>
 <wire x1="13.78" y1="7.53" x2="13.96" y2="7.35" width="0.1016" layer="16"/>
 <wire x1="13.96" y1="7.35" x2="14.99" y2="7.35" width="0.1016" layer="16"/>
 <wire x1="14.99" y1="7.35" x2="15.36" y2="7.72" width="0.1016" layer="16"/>
