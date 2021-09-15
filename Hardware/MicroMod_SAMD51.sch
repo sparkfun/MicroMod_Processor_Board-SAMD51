@@ -17110,17 +17110,17 @@ Diode with low voltage drop</description>
 <sheet>
 <plain>
 <text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v13</text>
-<text x="250.64" y="273.78" size="2.54" layer="94" font="vector" align="center">M.2 Connector</text>
+<text x="339.54" y="273.78" size="2.54" layer="94" font="vector" align="center">M.2 Connector</text>
 <wire x1="231.14" y1="279.4" x2="231.14" y2="111.76" width="0.1524" layer="97" style="longdash"/>
 <wire x1="134.62" y1="111.76" x2="134.62" y2="0" width="0.2032" layer="97" style="longdash"/>
 <wire x1="231.14" y1="111.76" x2="134.62" y2="111.76" width="0.2032" layer="97" style="longdash"/>
 <wire x1="134.62" y1="111.76" x2="0" y2="111.76" width="0.2032" layer="97" style="longdash"/>
-<text x="30.48" y="274.32" size="2.54" layer="94" font="vector" align="center">Microcontroller - SAMD51</text>
-<text x="25.4" y="104.14" size="2.54" layer="94" font="vector" align="center">Flash Memory - 128Mb</text>
-<text x="149.86" y="104.14" size="2.54" layer="94" font="vector" align="center">Stat LED</text>
+<text x="114.3" y="271.78" size="2.54" layer="94" font="vector" align="center">Microcontroller - SAMD51</text>
+<text x="60.96" y="104.648" size="2.54" layer="94" font="vector" align="center">Flash Memory - 128Mb</text>
+<text x="185.166" y="104.14" size="2.54" layer="94" font="vector" align="center">Stat LED</text>
 <wire x1="231.14" y1="111.76" x2="231.14" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="349.758" y="11.176" size="2.54" layer="94" font="vector">Elias Santistevan</text>
-<text x="285.496" y="242.062" size="1.778" layer="97" font="vector">0.65uA Leakage
+<text x="298.196" y="242.062" size="1.778" layer="97" font="vector">0.65uA Leakage
 0.3V drop at 10mA</text>
 <text x="106.68" y="259.08" size="2.54" layer="97" font="vector">Voltage Range:
 1.71 - 3.63V</text>
@@ -17180,12 +17180,12 @@ Diode with low voltage drop</description>
 <instance part="GND4" gate="1" x="187.96" y="50.8" smashed="yes">
 <attribute name="VALUE" x="187.96" y="50.546" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND5" gate="1" x="299.234" y="132.064" smashed="yes">
-<attribute name="VALUE" x="299.234" y="131.81" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND5" gate="1" x="311.934" y="132.064" smashed="yes">
+<attribute name="VALUE" x="311.934" y="131.81" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="J2" gate="J1" x="322.58" y="180.34" smashed="yes">
-<attribute name="NAME" x="304.8" y="234.188" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="302.26" y="132.08" size="1.778" layer="96" font="vector"/>
+<instance part="J2" gate="J1" x="335.28" y="180.34" smashed="yes">
+<attribute name="NAME" x="317.5" y="234.188" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="314.96" y="132.08" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="U1" gate="U1" x="63.5" y="53.34" smashed="yes">
 <attribute name="NAME" x="53.34" y="61.468" size="1.778" layer="95" font="vector"/>
@@ -17273,12 +17273,12 @@ Diode with low voltage drop</description>
 <instance part="SUPPLY7" gate="G$1" x="78.74" y="73.66" smashed="yes">
 <attribute name="VALUE" x="78.74" y="76.454" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY4" gate="G$1" x="281.94" y="241.3" smashed="yes">
-<attribute name="VALUE" x="281.94" y="244.094" size="1.778" layer="96" font="vector" align="bottom-center"/>
+<instance part="SUPPLY4" gate="G$1" x="294.64" y="241.3" smashed="yes">
+<attribute name="VALUE" x="294.64" y="244.094" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="D3" gate="G$1" x="287.02" y="231.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="289.052" y="235.458" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="304.8" y="238.252" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<instance part="D3" gate="G$1" x="299.72" y="231.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="301.752" y="235.458" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="317.5" y="238.252" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -17339,12 +17339,12 @@ Diode with low voltage drop</description>
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
 <pinref part="J2" gate="J1" pin="RTC_3V"/>
-<wire x1="299.72" y1="218.44" x2="281.94" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="218.44" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="218.44" x2="294.64" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="218.44" x2="294.64" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="281.94" y1="231.14" x2="281.94" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="231.14" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
-<junction x="281.94" y="231.14"/>
+<wire x1="294.64" y1="231.14" x2="294.64" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="231.14" x2="294.64" y2="231.14" width="0.1524" layer="91"/>
+<junction x="294.64" y="231.14"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -17371,8 +17371,8 @@ Diode with low voltage drop</description>
 <wire x1="187.96" y1="53.34" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="299.72" y1="137.16" x2="299.234" y2="137.144" width="0.1524" layer="91"/>
-<wire x1="299.234" y1="137.144" x2="299.234" y2="134.604" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="137.16" x2="311.934" y2="137.144" width="0.1524" layer="91"/>
+<wire x1="311.934" y1="137.144" x2="311.934" y2="134.604" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <pinref part="J2" gate="J1" pin="GND"/>
 </segment>
@@ -17423,8 +17423,8 @@ Diode with low voltage drop</description>
 <net name="D3/G1" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="G1/BUS1"/>
-<wire x1="345.44" y1="162.56" x2="347.98" y2="162.56" width="0.1524" layer="91"/>
-<label x="347.98" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="162.56" x2="360.68" y2="162.56" width="0.1524" layer="91"/>
+<label x="360.68" y="162.56" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="213.36" x2="149.86" y2="213.36" width="0.1524" layer="91"/>
@@ -17508,8 +17508,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="SWDIO"/>
-<wire x1="299.72" y1="187.96" x2="297.18" y2="187.96" width="0.1524" layer="91"/>
-<label x="297.18" y="187.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="187.96" x2="309.88" y2="187.96" width="0.1524" layer="91"/>
+<label x="309.88" y="187.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
@@ -17524,8 +17524,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="!RESET!"/>
-<wire x1="299.72" y1="228.6" x2="297.18" y2="228.6" width="0.1524" layer="91"/>
-<label x="297.18" y="228.6" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="228.6" x2="309.88" y2="228.6" width="0.1524" layer="91"/>
+<label x="309.88" y="228.6" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D13" class="0">
@@ -17544,8 +17544,8 @@ Diode with low voltage drop</description>
 <net name="D2/G0" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="G0/BUS0"/>
-<wire x1="345.44" y1="165.1" x2="347.98" y2="165.1" width="0.1524" layer="91"/>
-<label x="347.98" y="165.1" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="165.1" x2="360.68" y2="165.1" width="0.1524" layer="91"/>
+<label x="360.68" y="165.1" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="215.9" x2="149.86" y2="215.9" width="0.1524" layer="91"/>
@@ -17561,8 +17561,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="I2C_SCL"/>
-<wire x1="299.72" y1="165.1" x2="297.18" y2="165.1" width="0.1524" layer="91"/>
-<label x="297.18" y="165.1" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="165.1" x2="309.88" y2="165.1" width="0.1524" layer="91"/>
+<label x="309.88" y="165.1" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -17573,8 +17573,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="I2C_SDA"/>
-<wire x1="299.72" y1="162.56" x2="297.18" y2="162.56" width="0.1524" layer="91"/>
-<label x="297.18" y="162.56" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="162.56" x2="309.88" y2="162.56" width="0.1524" layer="91"/>
+<label x="309.88" y="162.56" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A0/DAC" class="0">
@@ -17585,15 +17585,15 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="A0"/>
-<wire x1="345.44" y1="200.66" x2="347.98" y2="200.66" width="0.1524" layer="91"/>
-<label x="347.98" y="200.66" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="200.66" x2="360.68" y2="200.66" width="0.1524" layer="91"/>
+<label x="360.68" y="200.66" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="A1" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="A1"/>
-<wire x1="345.44" y1="198.12" x2="347.98" y2="198.12" width="0.1524" layer="91"/>
-<label x="347.98" y="198.12" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="198.12" x2="360.68" y2="198.12" width="0.1524" layer="91"/>
+<label x="360.68" y="198.12" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="231.14" x2="149.86" y2="231.14" width="0.1524" layer="91"/>
@@ -17609,8 +17609,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="SPI_SDO"/>
-<wire x1="345.44" y1="210.82" x2="347.98" y2="210.82" width="0.1524" layer="91"/>
-<label x="347.98" y="210.82" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="210.82" x2="360.68" y2="210.82" width="0.1524" layer="91"/>
+<label x="360.68" y="210.82" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="CIPO" class="0">
@@ -17621,15 +17621,15 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="SPI_SDI"/>
-<wire x1="345.44" y1="208.28" x2="347.98" y2="208.28" width="0.1524" layer="91"/>
-<label x="347.98" y="208.28" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="208.28" x2="360.68" y2="208.28" width="0.1524" layer="91"/>
+<label x="360.68" y="208.28" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="D0" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="D0"/>
-<wire x1="345.44" y1="190.5" x2="347.98" y2="190.5" width="0.1524" layer="91"/>
-<label x="347.98" y="190.5" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="190.5" x2="360.68" y2="190.5" width="0.1524" layer="91"/>
+<label x="360.68" y="190.5" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="220.98" x2="149.86" y2="220.98" width="0.1524" layer="91"/>
@@ -17640,8 +17640,8 @@ Diode with low voltage drop</description>
 <net name="D1" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="D1/CAM_TRIG"/>
-<wire x1="345.44" y1="187.96" x2="347.98" y2="187.96" width="0.1524" layer="91"/>
-<label x="347.98" y="187.96" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="187.96" x2="360.68" y2="187.96" width="0.1524" layer="91"/>
+<label x="360.68" y="187.96" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="218.44" x2="149.86" y2="218.44" width="0.1524" layer="91"/>
@@ -17652,8 +17652,8 @@ Diode with low voltage drop</description>
 <net name="TXO" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="TX1"/>
-<wire x1="345.44" y1="182.88" x2="347.98" y2="182.88" width="0.1524" layer="91"/>
-<label x="347.98" y="182.88" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="182.88" x2="360.68" y2="182.88" width="0.1524" layer="91"/>
+<label x="360.68" y="182.88" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PB31(SER5_0)"/>
@@ -17664,8 +17664,8 @@ Diode with low voltage drop</description>
 <net name="RXI" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="RX1"/>
-<wire x1="345.44" y1="180.34" x2="347.98" y2="180.34" width="0.1524" layer="91"/>
-<label x="347.98" y="180.34" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="180.34" x2="360.68" y2="180.34" width="0.1524" layer="91"/>
+<label x="360.68" y="180.34" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PB30(SER5_1)"/>
@@ -17692,8 +17692,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="SWDCK"/>
-<wire x1="299.72" y1="185.42" x2="297.18" y2="185.42" width="0.1524" layer="91"/>
-<label x="297.18" y="185.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="185.42" x2="309.88" y2="185.42" width="0.1524" layer="91"/>
+<label x="309.88" y="185.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCK" class="1">
@@ -17704,8 +17704,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="SPI_SCK"/>
-<wire x1="345.44" y1="213.36" x2="347.98" y2="213.36" width="0.1524" layer="91"/>
-<label x="347.98" y="213.36" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="213.36" x2="360.68" y2="213.36" width="0.1524" layer="91"/>
+<label x="360.68" y="213.36" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="!CS" class="0">
@@ -17716,8 +17716,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="SPI_!CS!"/>
-<wire x1="345.44" y1="205.74" x2="347.98" y2="205.74" width="0.1524" layer="91"/>
-<label x="347.98" y="205.74" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="205.74" x2="360.68" y2="205.74" width="0.1524" layer="91"/>
+<label x="360.68" y="205.74" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="I2S_FS" class="0">
@@ -17727,8 +17727,8 @@ Diode with low voltage drop</description>
 <pinref part="U2" gate="G$1" pin="PA20(SER5_2,SER3_2)"/>
 </segment>
 <segment>
-<wire x1="299.72" y1="172.72" x2="297.18" y2="172.72" width="0.1524" layer="91"/>
-<label x="297.18" y="172.72" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="172.72" x2="309.88" y2="172.72" width="0.1524" layer="91"/>
+<label x="309.88" y="172.72" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J2" gate="J1" pin="AUD_LRCLK"/>
 </segment>
 </net>
@@ -17739,8 +17739,8 @@ Diode with low voltage drop</description>
 <pinref part="U2" gate="G$1" pin="PA21(SER5_3,SER3_3)"/>
 </segment>
 <segment>
-<wire x1="299.72" y1="177.8" x2="297.18" y2="177.8" width="0.1524" layer="91"/>
-<label x="297.18" y="177.8" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="177.8" x2="309.88" y2="177.8" width="0.1524" layer="91"/>
+<label x="309.88" y="177.8" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J2" gate="J1" pin="AUD_OUT/CAM_MCLK"/>
 </segment>
 </net>
@@ -17751,15 +17751,15 @@ Diode with low voltage drop</description>
 <pinref part="U2" gate="G$1" pin="PA22(SER3_0,SER5_1)"/>
 </segment>
 <segment>
-<wire x1="299.72" y1="175.26" x2="297.18" y2="175.26" width="0.1524" layer="91"/>
-<label x="297.18" y="175.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="175.26" x2="309.88" y2="175.26" width="0.1524" layer="91"/>
+<label x="309.88" y="175.26" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J2" gate="J1" pin="AUD_IN/CAM_PCLK"/>
 </segment>
 </net>
 <net name="I2S_CLK" class="0">
 <segment>
-<wire x1="299.72" y1="170.18" x2="297.18" y2="170.18" width="0.1524" layer="91"/>
-<label x="297.18" y="170.18" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="170.18" x2="309.88" y2="170.18" width="0.1524" layer="91"/>
+<label x="309.88" y="170.18" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J2" gate="J1" pin="AUD_BCLK"/>
 </segment>
 <segment>
@@ -17771,8 +17771,8 @@ Diode with low voltage drop</description>
 <net name="D5/G3" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="G3/BUS3"/>
-<wire x1="345.44" y1="157.48" x2="347.98" y2="157.48" width="0.1524" layer="91"/>
-<label x="347.98" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="157.48" x2="360.68" y2="157.48" width="0.1524" layer="91"/>
+<label x="360.68" y="157.48" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PB09(SER4_1,ADC)"/>
@@ -17788,8 +17788,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="CAN-TX"/>
-<wire x1="299.72" y1="195.58" x2="297.18" y2="195.58" width="0.1524" layer="91"/>
-<label x="297.18" y="195.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="195.58" x2="309.88" y2="195.58" width="0.1524" layer="91"/>
+<label x="309.88" y="195.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D39" class="0">
@@ -17800,8 +17800,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="CAN-RX"/>
-<wire x1="299.72" y1="193.04" x2="297.18" y2="193.04" width="0.1524" layer="91"/>
-<label x="297.18" y="193.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="193.04" x2="309.88" y2="193.04" width="0.1524" layer="91"/>
+<label x="309.88" y="193.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COPI1" class="0">
@@ -17843,8 +17843,8 @@ Diode with low voltage drop</description>
 <net name="A3/PWM1" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="PWM1"/>
-<wire x1="345.44" y1="193.04" x2="347.98" y2="193.04" width="0.1524" layer="91"/>
-<label x="347.98" y="193.04" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="193.04" x2="360.68" y2="193.04" width="0.1524" layer="91"/>
+<label x="360.68" y="193.04" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="226.06" x2="149.86" y2="226.06" width="0.1524" layer="91"/>
@@ -17860,13 +17860,13 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="I2C_SCL1"/>
-<wire x1="299.72" y1="157.48" x2="297.18" y2="157.48" width="0.1524" layer="91"/>
-<label x="297.18" y="157.48" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="157.48" x2="309.88" y2="157.48" width="0.1524" layer="91"/>
+<label x="309.88" y="157.48" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="TX2"/>
-<wire x1="345.44" y1="172.72" x2="347.98" y2="172.72" width="0.1524" layer="91"/>
-<label x="347.98" y="172.72" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="172.72" x2="360.68" y2="172.72" width="0.1524" layer="91"/>
+<label x="360.68" y="172.72" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="SDA1/RX2" class="0">
@@ -17877,20 +17877,20 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="I2C_SDA1"/>
-<wire x1="299.72" y1="154.94" x2="297.18" y2="154.94" width="0.1524" layer="91"/>
-<label x="297.18" y="154.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="154.94" x2="309.88" y2="154.94" width="0.1524" layer="91"/>
+<label x="309.88" y="154.94" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="RX2"/>
-<wire x1="345.44" y1="170.18" x2="347.98" y2="170.18" width="0.1524" layer="91"/>
-<label x="347.98" y="170.18" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="170.18" x2="360.68" y2="170.18" width="0.1524" layer="91"/>
+<label x="360.68" y="170.18" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="A2/PWM0" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="PWM0"/>
-<wire x1="345.44" y1="195.58" x2="347.98" y2="195.58" width="0.1524" layer="91"/>
-<label x="347.98" y="195.58" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="195.58" x2="360.68" y2="195.58" width="0.1524" layer="91"/>
+<label x="360.68" y="195.58" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="228.6" x2="149.86" y2="228.6" width="0.1524" layer="91"/>
@@ -17901,8 +17901,8 @@ Diode with low voltage drop</description>
 <net name="A4" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="BATT_VIN/3"/>
-<wire x1="299.72" y1="149.86" x2="297.18" y2="149.86" width="0.1524" layer="91"/>
-<label x="297.18" y="149.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="149.86" x2="309.88" y2="149.86" width="0.1524" layer="91"/>
+<label x="309.88" y="149.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="223.52" x2="149.86" y2="223.52" width="0.1524" layer="91"/>
@@ -17913,8 +17913,8 @@ Diode with low voltage drop</description>
 <net name="3.3V_EN" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="3.3V_EN"/>
-<wire x1="299.72" y1="220.98" x2="297.18" y2="220.98" width="0.1524" layer="91"/>
-<label x="297.18" y="220.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="220.98" x2="309.88" y2="220.98" width="0.1524" layer="91"/>
+<label x="309.88" y="220.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PA19(SER1_3,SER3_3)"/>
@@ -17926,7 +17926,7 @@ Diode with low voltage drop</description>
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="J2" gate="J1" pin="3.3V"/>
-<wire x1="289.56" y1="231.14" x2="299.72" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="231.14" x2="312.42" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!CS1!" class="0">
@@ -17977,8 +17977,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="G2/BUS2"/>
-<wire x1="345.44" y1="160.02" x2="347.98" y2="160.02" width="0.1524" layer="91"/>
-<label x="347.98" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="160.02" x2="360.68" y2="160.02" width="0.1524" layer="91"/>
+<label x="360.68" y="160.02" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="D6/G4" class="0">
@@ -17989,8 +17989,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="G4/BUS4"/>
-<wire x1="345.44" y1="154.94" x2="347.98" y2="154.94" width="0.1524" layer="91"/>
-<label x="347.98" y="154.94" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="154.94" x2="360.68" y2="154.94" width="0.1524" layer="91"/>
+<label x="360.68" y="154.94" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="D7/G5" class="0">
@@ -18001,8 +18001,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="G5/BUS5"/>
-<wire x1="345.44" y1="152.4" x2="347.98" y2="152.4" width="0.1524" layer="91"/>
-<label x="347.98" y="152.4" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="152.4" x2="360.68" y2="152.4" width="0.1524" layer="91"/>
+<label x="360.68" y="152.4" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="D8/G6" class="0">
@@ -18013,8 +18013,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="G6/BUS6"/>
-<wire x1="345.44" y1="149.86" x2="347.98" y2="149.86" width="0.1524" layer="91"/>
-<label x="347.98" y="149.86" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="149.86" x2="360.68" y2="149.86" width="0.1524" layer="91"/>
+<label x="360.68" y="149.86" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="D9/G7" class="0">
@@ -18025,8 +18025,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="G7/BUS7"/>
-<wire x1="345.44" y1="147.32" x2="347.98" y2="147.32" width="0.1524" layer="91"/>
-<label x="347.98" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="147.32" x2="360.68" y2="147.32" width="0.1524" layer="91"/>
+<label x="360.68" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="I2S_MCLK" class="0">
@@ -18037,8 +18037,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="AUD_MCLK"/>
-<wire x1="297.18" y1="180.34" x2="299.72" y2="180.34" width="0.1524" layer="91"/>
-<label x="297.18" y="180.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="309.88" y1="180.34" x2="312.42" y2="180.34" width="0.1524" layer="91"/>
+<label x="309.88" y="180.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HOST_ENABLE" class="0">
@@ -18049,8 +18049,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="G11"/>
-<wire x1="345.44" y1="137.16" x2="347.98" y2="137.16" width="0.1524" layer="91"/>
-<label x="347.98" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="137.16" x2="360.68" y2="137.16" width="0.1524" layer="91"/>
+<label x="360.68" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="I2C_!INT!" class="0">
@@ -18061,15 +18061,15 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="I2C_!INT!"/>
-<wire x1="297.18" y1="160.02" x2="299.72" y2="160.02" width="0.1524" layer="91"/>
-<label x="297.18" y="160.02" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="309.88" y1="160.02" x2="312.42" y2="160.02" width="0.1524" layer="91"/>
+<label x="309.88" y="160.02" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D-/USBHOST_D-" class="2">
 <segment>
 <pinref part="J2" gate="J1" pin="USB_D-"/>
-<wire x1="299.72" y1="210.82" x2="297.18" y2="210.82" width="0.1524" layer="91"/>
-<label x="297.18" y="210.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="210.82" x2="309.88" y2="210.82" width="0.1524" layer="91"/>
+<label x="309.88" y="210.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="246.38" x2="149.86" y2="246.38" width="0.1524" layer="91"/>
@@ -18080,8 +18080,8 @@ Diode with low voltage drop</description>
 <net name="D+/USBHOST_D+" class="2">
 <segment>
 <pinref part="J2" gate="J1" pin="USB_D+"/>
-<wire x1="299.72" y1="208.28" x2="297.18" y2="208.28" width="0.1524" layer="91"/>
-<label x="297.18" y="208.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="312.42" y1="208.28" x2="309.88" y2="208.28" width="0.1524" layer="91"/>
+<label x="309.88" y="208.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="243.84" x2="149.86" y2="243.84" width="0.1524" layer="91"/>
@@ -18092,8 +18092,8 @@ Diode with low voltage drop</description>
 <net name="D10" class="0">
 <segment>
 <pinref part="J2" gate="J1" pin="G8"/>
-<wire x1="345.44" y1="144.78" x2="347.98" y2="144.78" width="0.1524" layer="91"/>
-<label x="347.98" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="144.78" x2="360.68" y2="144.78" width="0.1524" layer="91"/>
+<label x="360.68" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="PA14(SER2_2,SER4_2)"/>
@@ -18109,8 +18109,8 @@ Diode with low voltage drop</description>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="G9/ADC_D-/CAM_HSYNC"/>
-<wire x1="345.44" y1="142.24" x2="347.98" y2="142.24" width="0.1524" layer="91"/>
-<label x="347.98" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="358.14" y1="142.24" x2="360.68" y2="142.24" width="0.1524" layer="91"/>
+<label x="360.68" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 </nets>

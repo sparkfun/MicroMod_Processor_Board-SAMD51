@@ -10,15 +10,15 @@
 <grid distance="0.5" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="PWR_HORIZ" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="GND-VERT" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="2" name="PWR_HORIZ" color="1" fill="3" visible="no" active="yes"/>
+<layer number="15" name="GND-VERT" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -3215,7 +3215,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="13.1754" y="11.0394" extent="1-16" drill="0.2"/>
 <via x="12.6754" y="13.0394" extent="1-16" drill="0.2"/>
 <via x="7.6154" y="13.9894" extent="1-16" drill="0.2"/>
-<via x="5.5454" y="5.6094" extent="1-16" drill="0.2"/>
+<via x="5.4854" y="6.0694" extent="1-16" drill="0.2"/>
 <via x="7.9854" y="12.1094" extent="1-16" drill="0.2"/>
 <via x="8.6354" y="9.4394" extent="1-16" drill="0.2"/>
 <via x="14.5554" y="8.1094" extent="1-16" drill="0.2"/>
@@ -3226,6 +3226,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="9.7854" y="20.9894" extent="1-16" drill="0.2"/>
 <via x="7.5354" y="14.9394" extent="1-16" drill="0.2"/>
 <via x="2.6054" y="7.8394" extent="1-16" drill="0.2"/>
+<via x="17.6844" y="13.5774" extent="1-16" drill="0.2"/>
+<via x="5.6194" y="5.0684" extent="1-16" drill="0.2"/>
+<via x="18.5994" y="11.5884" extent="1-16" drill="0.2"/>
 </signal>
 <signal name="D3/G1">
 <contactref element="J2" pad="42"/>
@@ -3884,11 +3887,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="U1" pad="7"/>
 <contactref element="U2" pad="50"/>
 <wire x1="8.782" y1="12.573" x2="8.927" y2="12.573" width="0.1016" layer="16"/>
-<wire x1="8.927" y1="12.573" x2="9.25" y2="12.25" width="0.1016" layer="16"/>
-<wire x1="9.25" y1="12.25" x2="13.36" y2="12.25" width="0.1016" layer="16"/>
-<wire x1="13.64" y1="12.53" x2="13.64" y2="13.09" width="0.1016" layer="16"/>
+<wire x1="8.927" y1="12.573" x2="8.95" y2="12.55" width="0.1016" layer="16"/>
+<wire x1="8.95" y1="12.55" x2="13.11" y2="12.55" width="0.1016" layer="16"/>
+<wire x1="13.64" y1="13.08" x2="13.64" y2="13.09" width="0.1016" layer="16"/>
 <via x="13.64" y="13.09" extent="1-16" drill="0.2"/>
-<wire x1="13.36" y1="12.25" x2="13.64" y2="12.53" width="0.1016" layer="16"/>
+<wire x1="13.11" y1="12.55" x2="13.64" y2="13.08" width="0.1016" layer="16"/>
 <wire x1="14.24" y1="18.47" x2="14.24" y2="13.69" width="0.1016" layer="15"/>
 <wire x1="13.64" y1="13.09" x2="14.24" y2="13.69" width="0.1016" layer="15"/>
 <wire x1="14.24" y1="18.47" x2="14.26" y2="18.49" width="0.1016" layer="15"/>
@@ -3987,9 +3990,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J2" pad="8"/>
 <wire x1="18.549" y1="1.525" x2="18.549" y2="2.621" width="0.1016" layer="16"/>
 <wire x1="18.549" y1="2.621" x2="18.38" y2="2.79" width="0.1016" layer="16"/>
-<wire x1="18.38" y1="2.79" x2="18.38" y2="3.49" width="0.1016" layer="16"/>
-<wire x1="18.38" y1="3.49" x2="19.34" y2="4.45" width="0.1016" layer="16"/>
-<wire x1="19.34" y1="4.45" x2="19.34" y2="9.43" width="0.1016" layer="16"/>
+<wire x1="18.38" y1="2.79" x2="18.38" y2="3.37" width="0.1016" layer="16"/>
+<wire x1="18.38" y1="3.37" x2="19.34" y2="4.33" width="0.1016" layer="16"/>
+<wire x1="19.34" y1="4.33" x2="19.34" y2="9.43" width="0.1016" layer="16"/>
 <wire x1="19.34" y1="9.43" x2="18.94" y2="9.83" width="0.1016" layer="16"/>
 <wire x1="18.94" y1="9.83" x2="18.94" y2="14.68" width="0.1016" layer="16"/>
 <wire x1="17.96" y1="15.66" x2="15.42" y2="15.66" width="0.1016" layer="16"/>
