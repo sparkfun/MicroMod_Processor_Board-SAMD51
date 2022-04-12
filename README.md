@@ -17,7 +17,7 @@ Repository Contents
 * **/Documentation** - Data sheets, additional product information
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
-* * **/uf2-footloader** - Default firmware
+* **/uf2-footloader** - Default firmware
 
 Documentation
 --------------
