@@ -13,11 +13,11 @@ The ATSAMD51J20 utilizes a 32-bit ARM Cortex-M4 processor with Floating Point Un
 Repository Contents
 -------------------
 
+* **/Arduino Board Files** - Board definitions for MicroMod SAMD51
 * **/Documentation** - Data sheets, additional product information
-* **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the MicroMod SAMD51
+* * **/uf2-footloader** - Default firmware
 
 Documentation
 --------------
@@ -30,6 +30,7 @@ Product Versions
 
 Version History
 ---------------
+* [v1.3](https://github.com/sparkfun/MicroMod_Processor_Board-SAMD51/tree/v1.3) - Minor update to swap SPI1 lines to the external flash
 * [v1.2](https://github.com/sparkfun/MicroMod_Processor_Board-SAMD51/tree/v1.2) - Initial Release 
 
 License Information
