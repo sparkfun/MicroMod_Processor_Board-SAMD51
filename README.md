@@ -14,15 +14,17 @@ Repository Contents
 -------------------
 
 * **/Arduino Board Files** - Board definitions for MicroMod SAMD51
-* **/Documentation** - Data sheets, additional product information
+* **/Documentation** - Datasheets, additional product information
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
-* **/uf2-footloader** - Default firmware
+* **/uf2-bootloader** - Default firmware
 
 Documentation
 --------------
+* **[Graphical Datasheet](https://github.com/sparkfun/Graphical_Datasheets/tree/main/Datasheets/SAM51)** - Pinout of the SAMD51 Processor Board
 * **[Installing Board Definitions in the Arduino IDE](https://learn.sparkfun.com/tutorials/installing-board-definitions-in-the-arduino-ide)** - Information about installing Arduino Board Files for Arduino
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/micromod-samd51-processor-board-hookup-guide)** - Basic hookup guide
+
 
 Product Versions
 ----------------
